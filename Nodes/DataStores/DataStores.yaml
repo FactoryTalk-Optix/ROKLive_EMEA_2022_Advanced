@@ -1,0 +1,397 @@
+Name: DataStores
+Type: FolderType
+Children:
+- Name: EmbeddedDatabase
+  Id: g=783e61253c9a291ffd671058261ba80c
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: WorkflowEventLogger
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=31;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Event
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: NewValue
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: OldValue
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: SourceName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: ActionTimeStamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ClientUserId
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: ClientUserNote
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: SignResult
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: SecondClientUserId
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: WorkflowType
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: SecondClientUserNote
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+      - Name: RecordLimit
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 0
+    - Name: AlarmsEventLogger
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=31;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: ActiveState_Id
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: AckedState_Id
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: ConfirmedState_Id
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: ConditionName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: EnabledState_Id
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: SourceName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Time
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: 'Message_en-US'
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: 'Message_it-IT'
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Severity
+          Type: StoreColumn
+          DataType: UInt16
+          Value: 0
+        - Name: LocalTime
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+      - Name: RecordLimit
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 1001
+    - Name: UsersEventLogger
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=31;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Time
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Username
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: EventType
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Status
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+      - Name: RecordLimit
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 1001
+    - Name: EmulatorLogDataGrid
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=31;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Time
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ModuleName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: 'Message_en-US'
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Level
+          Type: StoreColumn
+          DataType: LogLevel
+          Value: 0
+      - Name: RecordLimit
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 1001
+    - Name: SparePartsStorage
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=31;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: PartNumber
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Description
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Availability
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+    - Name: CoatingProcessParameters
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=31;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: TemperatureZone1
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: TemperatureZone2
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: TemperatureZone3
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: TemperatureZone4
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: WinderSpeed
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: UnwinderSpeed
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+      - Name: RecordLimit
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 1001
+    - Name: AlarmsHistory
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=31;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=31;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: AlarmName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: AlarmCount
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+      - Name: RecordLimit
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 1001
+  - Class: Reference
+    Target: ns=33;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=31;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=59
+    Direction: Forward

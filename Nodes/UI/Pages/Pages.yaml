@@ -1,0 +1,6 @@
+Name: Pages
+Type: FolderType
+Children:
+- File: MainPanelLoader/MainPanelLoader.yaml
+- File: BottomPanelLoader/BottomPanelLoader.yaml
+- File: DialogBox/DialogBox.yaml

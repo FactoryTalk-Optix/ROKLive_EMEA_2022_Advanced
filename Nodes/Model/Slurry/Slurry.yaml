@@ -1,0 +1,24 @@
+Name: Slurry
+Type: FolderType
+Children:
+- Name: Columns
+  Id: g=b32475c2bbad55eca7067639eddd3038
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [3]
+  Value: ["PartNumber","Description","Availability"]
+- Name: ColumnsValue
+  Id: g=19ff843fd36092ab8e573f4e3635eef9
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: 2
+  ArrayDimensions: [1,3]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [1,3],
+    "Body": [
+     "0","0","0"
+    ]
+   }

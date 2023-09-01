@@ -1,0 +1,39 @@
+Name: NetLogic
+Type: FolderType
+Children:
+- Name: CoatingVariablesGenerator
+  Type: NetLogic
+- Name: PrepareEmptyVersion
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: DeleteDashboardStuff
+  - Class: Method
+    Name: DeleteDrillingStuff
+  - Class: Method
+    Name: DeleteSlurryStuff
+  - Class: Method
+    Name: DeleteCoatingStuff
+  - Class: Method
+    Name: DeleteDryingStuff
+  - Class: Method
+    Name: DeleteCalendaringStuff
+  - Class: Method
+    Name: DeleteSlittingStuff
+  - Class: Method
+    Name: DeleteAll
+- Name: ResetSlurryValues
+  Type: NetLogic
+- Name: PrepareForDocker
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: DockerCleanup

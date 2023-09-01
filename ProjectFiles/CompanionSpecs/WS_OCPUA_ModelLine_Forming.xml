@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?><UANodeSet LastModified="2022-03-22T09:31:18.000Z" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:s1="http://opcfoundation.org/UA/Machinery/Types.xsd" xmlns:s2="http://opcfoundation.org/UA/DI/Types.xsd" xmlns:ua="http://unifiedautomation.com/Configuration/NodeSet.xsd">
+	<NamespaceUris>
+		<Uri>http://opcfoundation.org/UA/DI/</Uri>
+		<Uri>http://opcfoundation.org/UA/Machinery/</Uri>
+		<Uri>http://opcfoundation.org/UA/PackML/</Uri>
+		<Uri>http://opcfoundation.org/UA/Weihenstephan/</Uri>
+		<Uri>http://weihenstephan-standards.com/WS/</Uri>
+		<Uri>Line6_Forming/</Uri>
+	</NamespaceUris>
+	<Models>
+		<Model ModelUri="Line6_Forming/" PublicationDate="2022-03-22T00:00:00Z" Version="">
+			<RequiredModel ModelUri="http://opcfoundation.org/UA/" PublicationDate="2020-04-14T00:00:00Z" Version="1.04.6"/>
+			<RequiredModel ModelUri="http://opcfoundation.org/UA/DI/" PublicationDate="2020-06-02T00:00:00Z" Version="1.02.2"/>
+			<RequiredModel ModelUri="http://opcfoundation.org/UA/Machinery/" PublicationDate="2020-09-25T00:00:00Z" Version="1.0.0"/>
+			<RequiredModel ModelUri="http://opcfoundation.org/UA/PackML/" PublicationDate="2020-05-28T08:03:15Z" Version="1.1.0"/>
+			<RequiredModel ModelUri="http://opcfoundation.org/UA/Weihenstephan/" PublicationDate="2020-08-12T00:00:00Z" Version="0.0.5"/>
+		</Model>
+	</Models>
+	<Aliases>
+		<Alias Alias="Boolean">i=1</Alias>
+		<Alias Alias="UInt16">i=5</Alias>
+		<Alias Alias="Int32">i=6</Alias>
+		<Alias Alias="UInt32">i=7</Alias>
+		<Alias Alias="Float">i=10</Alias>
+		<Alias Alias="DateTime">i=13</Alias>
+		<Alias Alias="String">i=12</Alias>
+		<Alias Alias="NodeId">i=17</Alias>
+		<Alias Alias="LocalizedText">i=21</Alias>
+		<Alias Alias="HasComponent">i=47</Alias>
+		<Alias Alias="HasProperty">i=46</Alias>
+		<Alias Alias="Organizes">i=35</Alias>
+		<Alias Alias="HasTypeDefinition">i=40</Alias>
+		<Alias Alias="IdType">i=256</Alias>
+		<Alias Alias="NumericRange">i=291</Alias>
+		<Alias Alias="HasInterface">i=17603</Alias>
+		<Alias Alias="EUInformation">i=887</Alias>
+		<Alias Alias="WSOperatingStateEnumerationType">ns=4;i=3000</Alias>
+		<Alias Alias="WSProgramEnumerationType">ns=4;i=3001</Alias>
+	</Aliases>
+	<Extensions>
+		<Extension>
+			<ws:Generator xmlns:ws="http://weihenstephaner-standards.com" Product="WS Modeler" Version=""/>
+		</Extension>
+	</Extensions>
+	
+	<UAObject SymbolicName="http___weihenstephaner_standards_com_WS_" NodeId="ns=6;i=5000" BrowseName="6:http://weihenstephaner-standards.com/WS/" ParentNodeId="i=11715"><DisplayName>http://weihenstephaner-standards.com/WS/</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">i=11715</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=11616</Reference>
+		</References>
+		</UAObject>
+	<UAVariable DataType="Boolean" NodeId="ns=6;i=6000" BrowseName="IsNamespaceSubset" ParentNodeId="ns=6;i=5000">
+		<DisplayName>IsNamespaceSubset</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5000</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:Boolean xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">true</uax:Boolean>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="DateTime" NodeId="ns=6;i=6001" BrowseName="NamespacePublicationDate" ParentNodeId="ns=6;i=5000">
+		<DisplayName>NamespacePublicationDate</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5000</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:DateTime xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">2021-04-01T00:00:00Z</uax:DateTime>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="String" NodeId="ns=6;i=6002" BrowseName="NamespaceUri" ParentNodeId="ns=6;i=5000">
+		<DisplayName>NamespaceUri</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5000</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:String xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">http://weihenstephan-standards.com/WS/</uax:String>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="String" NodeId="ns=6;i=6003" BrowseName="NamespaceVersion" ParentNodeId="ns=6;i=5000">
+		<DisplayName>NamespaceVersion</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5000</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:String xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">WS 10.01 pre</uax:String>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="IdType" ValueRank="1" NodeId="ns=6;i=6004" ArrayDimensions="0" BrowseName="StaticNodeIdTypes" ParentNodeId="ns=6;i=5000">
+		<DisplayName>StaticNodeIdTypes</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5000</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="NumericRange" ValueRank="1" NodeId="ns=6;i=6005" ArrayDimensions="0" BrowseName="StaticNumericNodeIdRange" ParentNodeId="ns=6;i=5000">
+		<DisplayName>StaticNumericNodeIdRange</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5000</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="String" NodeId="ns=6;i=6006" BrowseName="StaticStringNodeIdPattern" ParentNodeId="ns=6;i=5000">
+		<DisplayName>StaticStringNodeIdPattern</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5000</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="i=96" ValueRank="1" NodeId="ns=6;i=6007" ArrayDimensions="0" BrowseName="DefaultRolePermissions" ParentNodeId="ns=6;i=5000">
+		<DisplayName>DefaultRolePermissions</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5000</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		</UAVariable>
+	<UAObject SymbolicName="Line6_Forming_" NodeId="ns=6;i=5001" BrowseName="6:Line6_Forming/" ParentNodeId="i=11715"><DisplayName>Line6_Forming/</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">i=11715</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=11616</Reference>
+		</References>
+		</UAObject>
+	<UAVariable DataType="Boolean" NodeId="ns=6;i=6008" BrowseName="IsNamespaceSubset" ParentNodeId="ns=6;i=5001">
+		<DisplayName>IsNamespaceSubset</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5001</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:Boolean xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">false</uax:Boolean>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="DateTime" NodeId="ns=6;i=6009" BrowseName="NamespacePublicationDate" ParentNodeId="ns=6;i=5001">
+		<DisplayName>NamespacePublicationDate</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5001</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:DateTime xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">2022-03-22T00:00:00Z</uax:DateTime>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="String" NodeId="ns=6;i=6010" BrowseName="NamespaceUri" ParentNodeId="ns=6;i=5001">
+		<DisplayName>NamespaceUri</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5001</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:String xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">Line6_Forming/</uax:String>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="String" NodeId="ns=6;i=6011" BrowseName="NamespaceVersion" ParentNodeId="ns=6;i=5001">
+		<DisplayName>NamespaceVersion</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5001</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="IdType" ValueRank="1" NodeId="ns=6;i=6012" ArrayDimensions="0" BrowseName="StaticNodeIdTypes" ParentNodeId="ns=6;i=5001">
+		<DisplayName>StaticNodeIdTypes</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5001</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="NumericRange" ValueRank="1" NodeId="ns=6;i=6013" ArrayDimensions="0" BrowseName="StaticNumericNodeIdRange" ParentNodeId="ns=6;i=5001">
+		<DisplayName>StaticNumericNodeIdRange</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5001</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="String" NodeId="ns=6;i=6014" BrowseName="StaticStringNodeIdPattern" ParentNodeId="ns=6;i=5001">
+		<DisplayName>StaticStringNodeIdPattern</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5001</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="i=96" ValueRank="1" NodeId="ns=6;i=6015" ArrayDimensions="0" BrowseName="DefaultRolePermissions" ParentNodeId="ns=6;i=5001">
+		<DisplayName>DefaultRolePermissions</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5001</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		</UAVariable>
+	<UAObject NodeId="ns=6;i=5002" BrowseName="6:Line 6 Forming" ParentNodeId="ns=2;i=1001"><DisplayName>Line 6 Forming</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=2;i=1001</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=4;i=1000</Reference>
+		</References>
+		</UAObject>
+	<UAVariable DataType="String" NodeId="ns=6;i=6016" BrowseName="4:WSMachineProfile" ParentNodeId="ns=6;i=5002">
+		<DisplayName>WSMachineProfile</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5002</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:String xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">WS Bake Forming machines</uax:String>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="String" NodeId="ns=6;i=6017" BrowseName="4:WSVersion" ParentNodeId="ns=6;i=5002">
+		<DisplayName>WSVersion</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5002</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:String xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">WS_Bake.10.01</uax:String>
+		</Value>
+	</UAVariable>
+	<UAObject NodeId="ns=6;i=5003" BrowseName="4:Alarms" ParentNodeId="ns=6;i=5002"><DisplayName>Alarms</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5002</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=1;i=1005</Reference>
+		</References>
+		</UAObject>
+	<UAObject NodeId="ns=6;i=5004" BrowseName="4:BatchAndArticleTracing" ParentNodeId="ns=6;i=5002"><DisplayName>BatchAndArticleTracing</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5002</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=1;i=1005</Reference>
+		</References>
+		</UAObject>
+	<UAObject NodeId="ns=6;i=5005" BrowseName="4:Counters" ParentNodeId="ns=6;i=5002"><DisplayName>Counters</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5002</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=1;i=1005</Reference>
+		</References>
+		</UAObject>
+	<UAObject NodeId="ns=6;i=5006" BrowseName="1:Identification" ParentNodeId="ns=6;i=5002"><DisplayName>Identification</DisplayName>
+		<References>
+			<Reference ReferenceType="i=17604" IsForward="false">ns=6;i=5002</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=2;i=1012</Reference>
+			<Reference ReferenceType="HasInterface">ns=2;i=1011</Reference>
+			<Reference ReferenceType="HasInterface">ns=2;i=1010</Reference>
+		</References>
+	</UAObject>
+	<UAObject NodeId="ns=6;i=5007" BrowseName="4:OperatingModes" ParentNodeId="ns=6;i=5002"><DisplayName>OperatingModes</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5002</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=1;i=1005</Reference>
+		</References>
+		</UAObject>
+	<UAObject NodeId="ns=6;i=5008" BrowseName="4:OperatingStates" ParentNodeId="ns=6;i=5002"><DisplayName>OperatingStates</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5002</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=1;i=1005</Reference>
+		</References>
+		</UAObject>
+	<UAObject NodeId="ns=6;i=5009" BrowseName="4:Parameters" ParentNodeId="ns=6;i=5002"><DisplayName>Parameters</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5002</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=1;i=1005</Reference>
+		</References>
+		</UAObject>
+	<UAObject NodeId="ns=6;i=5010" BrowseName="4:Programs" ParentNodeId="ns=6;i=5002"><DisplayName>Programs</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5002</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=1;i=1005</Reference>
+		</References>
+		</UAObject>
+	<UAVariable DataType="LocalizedText" NodeId="ns=6;i=6018" BrowseName="1:Manufacturer" ParentNodeId="ns=6;i=5006">
+		<DisplayName></DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5006</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:LocalizedText xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">
+				<uax:Locale>EN</uax:Locale>
+				<uax:Text>Imaforni</uax:Text>
+			</uax:LocalizedText>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="String" NodeId="ns=6;i=6019" BrowseName="1:ManufacturerUri" ParentNodeId="ns=6;i=5006">
+		<DisplayName></DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5006</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:String xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd"> </uax:String>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="LocalizedText" NodeId="ns=6;i=6020" BrowseName="1:Model" ParentNodeId="ns=6;i=5006">
+		<DisplayName></DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5006</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:LocalizedText xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">
+				<uax:Locale></uax:Locale>
+				<uax:Text>EN:Forming L6</uax:Text>
+			</uax:LocalizedText>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="String" NodeId="ns=6;i=6052" BrowseName="1:SerialNumber" ParentNodeId="ns=6;i=5006">
+		<DisplayName>SerialNumber</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5006</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:String xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd"> </uax:String>
+		</Value>	
+	</UAVariable>
+	<UAVariable DataType="String" NodeId="ns=6;i=6053" BrowseName="1:ProductInstanceUri" ParentNodeId="ns=6;i=5006">
+		<DisplayName>ProductInstanceUri</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5006</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:String xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd"> </uax:String>
+		</Value>	
+	</UAVariable>
+	<UAObject NodeId="ns=6;i=5011" BrowseName="6:WS_Alarm" ParentNodeId="ns=6;i=5003"><DisplayName Locale="EN">Alarm</DisplayName>
+		<Description Locale="EN">This data point informs about the first occurred failure, which has led to the stop. </Description>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5003</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=4;i=1002</Reference>
+		</References>
+		</UAObject>
+	<UAVariable DataType="UInt32" NodeId="ns=6;i=6021" BrowseName="4:WSAlarmCode" ParentNodeId="ns=6;i=5011">
+		<DisplayName>WSAlarmCode</DisplayName>
+		<Description></Description>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5011</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="LocalizedText" NodeId="ns=6;i=6022" BrowseName="4:WSAlarmMessage" ParentNodeId="ns=6;i=5011">
+		<DisplayName>WSAlarmMessage</DisplayName>
+		<Description></Description>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5011</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="UInt16" NodeId="ns=6;i=6023" BrowseName="4:WSTagNumber" ParentNodeId="ns=6;i=5011">
+		<DisplayName>WSTagNumber</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5011</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:UInt16 xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">10000</uax:UInt16>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="String" NodeId="ns=6;i=6024" BrowseName="6:WS_Batch_ID_In" ParentNodeId="ns=6;i=5004">
+		<DisplayName Locale="EN">Input Batch ID</DisplayName>
+		<Description Locale="EN">This data point gives the batch ID of the last input batch. After changing the input batch, the value remains applied for at least five seconds at the interface.
+On changing the current batch ID (WS_Cur_Batch_ID), the value of this data point is deleted (empty string). If currently no input batch ID is set, the data point also has no content (empty string).</Description>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5004</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=4;i=2001</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="UInt16" NodeId="ns=6;i=6025" BrowseName="4:WSTagNumber" ParentNodeId="ns=6;i=6024">
+		<DisplayName>WSTagNumber</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=6024</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:UInt16 xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">68</uax:UInt16>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="UInt32" NodeId="ns=6;i=6026" BrowseName="6:WS_Good_Products" ParentNodeId="ns=6;i=5005">
+		<DisplayName Locale="EN">Good Products</DisplayName>
+		<Description Locale="EN">This data point gives the total number of good products produced. </Description>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5005</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=4;i=2000</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="EUInformation" NodeId="ns=6;i=6027" BrowseName="EngineeringUnits" ParentNodeId="ns=6;i=6026">
+		<DisplayName>EngineeringUnits</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=6026</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="UInt16" NodeId="ns=6;i=6028" BrowseName="4:WSTagNumber" ParentNodeId="ns=6;i=6026">
+		<DisplayName>WSTagNumber</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=6026</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:UInt16 xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">50257</uax:UInt16>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="UInt32" NodeId="ns=6;i=6029" BrowseName="6:WS_Tot_Products" ParentNodeId="ns=6;i=5005">
+		<DisplayName Locale="EN">Total Products</DisplayName>
+		<Description Locale="EN">This data point gives the total number of all products produced. </Description>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5005</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=4;i=2000</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="EUInformation" NodeId="ns=6;i=6030" BrowseName="EngineeringUnits" ParentNodeId="ns=6;i=6029">
+		<DisplayName>EngineeringUnits</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=6029</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="UInt16" NodeId="ns=6;i=6031" BrowseName="4:WSTagNumber" ParentNodeId="ns=6;i=6029">
+		<DisplayName>WSTagNumber</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=6029</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:UInt16 xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">50258</uax:UInt16>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="WSOperatingStateEnumerationType" NodeId="ns=6;i=6032" BrowseName="6:WS_Cur_Mode" ParentNodeId="ns=6;i=5007">
+		<DisplayName Locale="EN">Operating Mode</DisplayName>
+		<Description Locale="EN">The operating mode provides information about the way and extent of the intervention on the control equipment by the human operator. In the Weihenstephan Standards, the machine state Off is understood as an operating mode in addition to automatic, semi-automatic, and manual.</Description>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5007</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=4;i=2001</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="UInt16" NodeId="ns=6;i=6033" BrowseName="4:WSTagNumber" ParentNodeId="ns=6;i=6032">
+		<DisplayName>WSTagNumber</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=6032</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:UInt16 xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">100</uax:UInt16>
+		</Value>
+	</UAVariable>
+	<UAObject NodeId="ns=6;i=5012" BrowseName="6:WS_Cur_State" ParentNodeId="ns=6;i=5008"><DisplayName Locale="EN">Operating State</DisplayName>
+		<Description Locale="EN">Operating state according to the Weihenstephan Standards.</Description>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5008</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=4;i=1004</Reference>
+		</References>
+		</UAObject>
+	<UAVariable DataType="LocalizedText" NodeId="ns=6;i=6034" BrowseName="CurrentState" ParentNodeId="ns=6;i=5012">
+		<DisplayName>CurrentState</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5012</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=2760</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="NodeId" NodeId="ns=6;i=6035" BrowseName="Id" ParentNodeId="ns=6;i=6034">
+		<DisplayName>Id</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=6034</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="NodeId" ValueRank="1" NodeId="ns=6;i=6036" ArrayDimensions="0" BrowseName="AvailableStates" ParentNodeId="ns=6;i=5012">
+		<DisplayName>AvailableStates</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5012</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="NodeId" ValueRank="1" NodeId="ns=6;i=6037" ArrayDimensions="0" BrowseName="AvailableTransitions" ParentNodeId="ns=6;i=5012">
+		<DisplayName>AvailableTransitions</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5012</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+		</References>
+		</UAVariable>
+	<UAObject NodeId="ns=6;i=5013" BrowseName="3:MachineState" ParentNodeId="ns=6;i=5012"><DisplayName>MachineState</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5012</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=3;i=2</Reference>
+		</References>
+		</UAObject>
+	<UAVariable DataType="NodeId" ValueRank="1" NodeId="ns=6;i=6038" ArrayDimensions="0" BrowseName="AvailableStates" ParentNodeId="ns=6;i=5013">
+		<DisplayName>AvailableStates</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5013</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="NodeId" ValueRank="1" NodeId="ns=6;i=6039" ArrayDimensions="0" BrowseName="AvailableTransitions" ParentNodeId="ns=6;i=5013">
+		<DisplayName>AvailableTransitions</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5013</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="LocalizedText" NodeId="ns=6;i=6040" BrowseName="CurrentState" ParentNodeId="ns=6;i=5013">
+		<DisplayName>CurrentState</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5013</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=2760</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="NodeId" NodeId="ns=6;i=6041" BrowseName="Id" ParentNodeId="ns=6;i=6040">
+		<DisplayName>Id</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=6040</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		</UAVariable>
+	<UAObject NodeId="ns=6;i=5014" BrowseName="3:ExecuteState" ParentNodeId="ns=6;i=5013"><DisplayName>ExecuteState</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5013</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=3;i=1</Reference>
+		</References>
+		</UAObject>
+	<UAVariable DataType="NodeId" ValueRank="1" NodeId="ns=6;i=6042" ArrayDimensions="0" BrowseName="AvailableStates" ParentNodeId="ns=6;i=5014">
+		<DisplayName>AvailableStates</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5014</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="NodeId" ValueRank="1" NodeId="ns=6;i=6043" ArrayDimensions="0" BrowseName="AvailableTransitions" ParentNodeId="ns=6;i=5014">
+		<DisplayName>AvailableTransitions</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5014</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="LocalizedText" NodeId="ns=6;i=6044" BrowseName="CurrentState" ParentNodeId="ns=6;i=5014">
+		<DisplayName>CurrentState</DisplayName>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5014</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=2760</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="NodeId" NodeId="ns=6;i=6045" BrowseName="Id" ParentNodeId="ns=6;i=6044">
+		<DisplayName>Id</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=6044</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="UInt16" NodeId="ns=6;i=6046" BrowseName="4:WSTagNumber" ParentNodeId="ns=6;i=5012">
+		<DisplayName>WSTagNumber</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=5012</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:UInt16 xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">300</uax:UInt16>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="Float" NodeId="ns=6;i=6047" BrowseName="6:WS_Set_Revolutions" ParentNodeId="ns=6;i=5009">
+		<DisplayName Locale="EN">Set Revolutions</DisplayName>
+		<Description Locale="EN">This data point gives the set revolution speed.</Description>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5009</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=4;i=2000</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="EUInformation" NodeId="ns=6;i=6048" BrowseName="EngineeringUnits" ParentNodeId="ns=6;i=6047">
+		<DisplayName>EngineeringUnits</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=6047</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:ExtensionObject xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">
+				<uax:TypeId>
+					<uax:Identifier>i=888</uax:Identifier>
+				</uax:TypeId>
+				<uax:Body>
+					<uax:EUInformation>
+						<uax:NamespaceUri>http://www.opcfoundation.org/UA/units/un/cefact</uax:NamespaceUri>
+						<uax:UnitId>5394509</uax:UnitId>
+						<uax:DisplayName>
+							<uax:Text>r/min</uax:Text>
+						</uax:DisplayName>
+						<uax:Description>
+							<uax:Text>revolutions per minute</uax:Text>
+						</uax:Description>
+					</uax:EUInformation>
+				</uax:Body>
+			</uax:ExtensionObject>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="UInt16" NodeId="ns=6;i=6049" BrowseName="4:WSTagNumber" ParentNodeId="ns=6;i=6047">
+		<DisplayName>WSTagNumber</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=6047</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:UInt16 xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">30146</uax:UInt16>
+		</Value>
+	</UAVariable>
+	<UAVariable DataType="WSProgramEnumerationType" NodeId="ns=6;i=6050" BrowseName="6:WS_Cur_Prog" ParentNodeId="ns=6;i=5010">
+		<DisplayName Locale="EN">Program</DisplayName>
+		<Description Locale="EN">Machine programs according to the Weihenstephan Standards.</Description>
+		<References>
+			<Reference ReferenceType="HasComponent" IsForward="false">ns=6;i=5010</Reference>
+			<Reference ReferenceType="HasTypeDefinition">ns=4;i=2001</Reference>
+		</References>
+		</UAVariable>
+	<UAVariable DataType="UInt16" NodeId="ns=6;i=6051" BrowseName="4:WSTagNumber" ParentNodeId="ns=6;i=6050">
+		<DisplayName>WSTagNumber</DisplayName>
+		<References>
+			<Reference ReferenceType="HasProperty" IsForward="false">ns=6;i=6050</Reference>
+			<Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+		</References>
+		<Value>
+			<uax:UInt16 xmlns:uax="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">200</uax:UInt16>
+		</Value>
+	</UAVariable>
+</UANodeSet>

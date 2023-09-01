@@ -1,0 +1,27 @@
+Name: Coating
+Type: FolderType
+Children:
+- Name: WinderSpeed
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: UnwinderSpeed
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: TemperatureZone1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: TemperatureZone2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: TemperatureZone3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: TemperatureZone4
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

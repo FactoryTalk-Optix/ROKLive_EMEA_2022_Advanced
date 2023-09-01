@@ -1,0 +1,33 @@
+Name: eCharts
+Type: FolderType
+Children:
+- Name: eChart1
+  Id: g=cbef505bf239f966efeb48070e402492
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 10
+- Name: eChart2
+  Id: g=a97592f0b51f3f4875beab37a885b938
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 15
+- Name: eChart3
+  Id: g=86393057e167816ba8013782501911ec
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 5
+- Name: eChart4
+  Id: g=ad80a0359a63a1247cbf081d0f3087de
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 15
+- Name: eChart5
+  Id: g=50a1f7c7444d3b7a1e3e9eeb61a2e94d
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 5
+- Name: eChart6
+  Id: g=85bd943c0ea5ad1f2ab5fa9d14c41ea6
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 10

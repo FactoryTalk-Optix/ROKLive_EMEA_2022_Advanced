@@ -1,0 +1,6 @@
+Name: OPC_Items
+Id: g=549d072e3a8fa8e1c92ccbc817ad3227
+Type: FolderType
+Children:
+- File: Type/Type.yaml
+- File: Instances/Instances.yaml

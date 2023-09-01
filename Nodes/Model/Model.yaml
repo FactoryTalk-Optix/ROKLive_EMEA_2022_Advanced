@@ -1,0 +1,10 @@
+Name: Model
+Type: FolderType
+Children:
+- File: Dashboard/Dashboard.yaml
+- File: Drilling/Drilling.yaml
+- File: Slurry/Slurry.yaml
+- File: Coating/Coating.yaml
+- File: Drying/Drying.yaml
+- File: Calendaring/Calendaring.yaml
+- File: Slitting/Slitting.yaml

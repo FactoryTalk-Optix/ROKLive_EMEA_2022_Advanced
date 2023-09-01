@@ -1,0 +1,69 @@
+Name: 'OPC-UA'
+Type: FolderType
+Children:
+- Name: OPCUAServer
+  Type: OPCUAServer
+  Children:
+  - Name: EndpointURL
+    Type: PropertyType
+    DataType: ResourceUri
+    Value: "opc.tcp://localhost:59100"
+  - Name: NodesToPublish
+    Type: BaseObjectType
+    Children:
+    - Name: Configuration1
+      Type: NodesToPublishConfigurationEntry
+      Children:
+      - Name: Nodes
+        Type: BaseObjectType
+        Children:
+        - Name: Node1
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"549d072e3a8fa8e1c92ccbc817ad3227","Namespace":40}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: NodeClass
+            Type: PropertyType
+            DataType: NodePointerNodeClass
+            Value: 2
+      - Name: Users
+        Type: BaseObjectType
+        Children:
+        - Name: User1
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"Id":46,"Namespace":1}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":14,"Namespace":1}
+          - Name: NodeClass
+            Type: PropertyType
+            DataType: NodePointerNodeClass
+            Value: 0
+  - Name: MinimumMessageSecurityMode
+    Type: PropertyType
+    DataType: ns=9;MessageSecurityModeEnum
+    Value: 0
+  - Name: MinimumSecurityPolicy
+    Type: PropertyType
+    DataType: ns=9;SecurityPolicyEnum
+    Value: 0
+  - Name: AllowMultipleConnection
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ServerCertificateFile
+    Type: PropertyType
+    DataType: ResourceUri
+    Value: "ns=40;%PROJECTDIR%/Certificates/OPC-UA/optixhmi_cert.der"
+  - Name: ServerPrivateKeyFile
+    Type: PropertyType
+    DataType: ResourceUri
+    Value: "ns=40;%PROJECTDIR%/Certificates/OPC-UA/optixhmi_cert.pem"
+- File: OPCUAClient/OPCUAClient.yaml

@@ -1,0 +1,91 @@
+Name: Converters
+Type: FolderType
+Children:
+- Name: UsersActionsConverter
+  Id: g=96b585d0dfefe0eafa2ccb63fb0938df
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: ""
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"LocaleId":"en-US","Text":"Illegal User Operation"}
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "UserLoginEvent"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"LocaleId":"en-US","Text":"User Logged In"}
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "UserLogoutEvent"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"LocaleId":"en-US","Text":"User Logged Out"}
+- Name: UsersLoginResultEvaluation
+  Id: g=59dde0a177c585356030095e60eee8d4
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: false
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"LocaleId":"en-US","Text":"Failed"}
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"LocaleId":"en-US","Text":"Success"}

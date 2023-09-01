@@ -1,0 +1,27 @@
+Welcome to FactoryTalk® Optix™, a new visualization platform that accelerates value delivery 
+with modern technologies, innovative designs and scalable deployment options.
+
+Why FactoryTalk Optix?
+-Design Options
+-Web-based design & test
+-Multi-user collaboration
+-Integrated version management
+-Dynamically built projects
+
+Deployment Options
+-Panel • Station • Distributed
+-Supports Windows and Linux
+-Web client options
+-Pay only for what you use
+
+Graphics Options
+-Responsive graphics
+-Multi-language
+-Style sheets
+-Reporting and dashboarding
+
+Extensible Options
+-Library management
+-3rd party drivers
+-IOT native connectivity
+-Comprehensive OPC UA support

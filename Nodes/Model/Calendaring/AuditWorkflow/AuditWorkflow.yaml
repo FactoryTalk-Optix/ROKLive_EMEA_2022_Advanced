@@ -1,0 +1,58 @@
+Name: AuditWorkflow
+Id: g=72caebf9f6ae85f6d30a5787e9ccff34
+Type: FolderType
+Children:
+- Name: Roller1
+  Id: g=f79dcf46bd1e83d656977fa7ee1064b6
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 81
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+    - Name: Groups
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 3
+- Name: Roller2
+  Id: g=70bf0b7c8448cf86aaef83edf7c770cf
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 48
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+    - Name: Groups
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 1
+- Name: Roller3
+  Id: g=45027b774c31870b45c43b401d9ff2ce
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 99
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+    - Name: Groups
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 2

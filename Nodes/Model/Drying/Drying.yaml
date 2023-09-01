@@ -1,0 +1,34 @@
+Name: Drying
+Type: FolderType
+Children:
+- Name: ConditionalValueSource
+  Id: g=530e7058805e159bc0fd5dc04ed1c4a1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 775
+- Name: KeyValueSource
+  Id: g=33540f2ee2a91225dea765afa0fed248
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: ns=0;EURange
+    Type: RangeType
+    DataType: EURange
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 5.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true

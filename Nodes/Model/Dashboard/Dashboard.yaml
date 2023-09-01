@@ -1,0 +1,4 @@
+Name: Dashboard
+Type: FolderType
+Children:
+- File: eCharts/eCharts.yaml
