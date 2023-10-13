@@ -1,5 +1,5 @@
 Name: Alarms
-Type: FolderType
+Type: AlarmsCategoryFolder
 Children:
 - Name: T102
   Type: ExclusiveLevelAlarmController

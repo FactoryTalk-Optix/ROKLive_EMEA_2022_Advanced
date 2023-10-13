@@ -2319,7 +2319,7 @@ Children:
     - Name: Path
       Type: BaseDataVariableType
       DataType: ResourceUri
-      Value: "ns=40;%PROJECTDIR%/Video/DrillingOverheatingAlarm.mp4"
+      Value: "ns=40;%PROJECTDIR%/Video/Drillingoverheatingalarm.mp4"
     - Class: Reference
       Target: ns=15;i=379
       Direction: Forward

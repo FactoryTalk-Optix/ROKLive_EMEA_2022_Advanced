@@ -593,7 +593,16 @@ Children:
     - Name: EURange
       Type: RangeType
       DataType: EURange
-      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
       Children:
       - Name: Low
         Type: BaseVariableType

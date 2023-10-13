@@ -41,7 +41,24 @@ Children:
         Type: EUInformationType
         DataType: EUInformation
         DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
-        Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://www.opcfoundation.org/UA/units/un/cefact","unitId":5002322,"displayName":{"LocaleId":"en-US","Text":"l"},"description":{"LocaleId":"en-US","Text":"litre"}}}
+        Value: 
+         {
+          "TypeId": {
+           "Id": 887
+          },
+          "Body": {
+           "namespaceUri": "http://www.opcfoundation.org/UA/units/un/cefact",
+           "unitId": 5002322,
+           "displayName": {
+            "LocaleId": "en-US",
+            "Text": "l"
+           },
+           "description": {
+            "LocaleId": "en-US",
+            "Text": "litre"
+           }
+          }
+         }
         Children:
         - Name: UnitId
           Type: BaseVariableType
@@ -66,7 +83,16 @@ Children:
         Type: RangeType
         DataType: EURange
         DisplayName: {"LocaleId":"","Text":"EURange"}
-        Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+        Value: 
+         {
+          "TypeId": {
+           "Id": 884
+          },
+          "Body": {
+           "low": 0.0,
+           "high": 0.0
+          }
+         }
         Children:
         - Name: Low
           Type: BaseVariableType
@@ -122,7 +148,24 @@ Children:
         Type: EUInformationType
         DataType: EUInformation
         DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
-        Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://www.opcfoundation.org/UA/units/un/cefact","unitId":4408652,"displayName":{"LocaleId":"en-US","Text":"°C"},"description":{"LocaleId":"en-US","Text":"degree Celsius"}}}
+        Value: 
+         {
+          "TypeId": {
+           "Id": 887
+          },
+          "Body": {
+           "namespaceUri": "http://www.opcfoundation.org/UA/units/un/cefact",
+           "unitId": 4408652,
+           "displayName": {
+            "LocaleId": "en-US",
+            "Text": "°C"
+           },
+           "description": {
+            "LocaleId": "en-US",
+            "Text": "degree Celsius"
+           }
+          }
+         }
         Children:
         - Name: UnitId
           Type: BaseVariableType
@@ -147,7 +190,16 @@ Children:
         Type: RangeType
         DataType: EURange
         DisplayName: {"LocaleId":"","Text":"EURange"}
-        Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":100.0}}
+        Value: 
+         {
+          "TypeId": {
+           "Id": 884
+          },
+          "Body": {
+           "low": 0.0,
+           "high": 100.0
+          }
+         }
         Children:
         - Name: Low
           Type: BaseVariableType

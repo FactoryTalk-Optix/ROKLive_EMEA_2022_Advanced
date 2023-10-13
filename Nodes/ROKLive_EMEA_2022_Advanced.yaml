@@ -1,10 +1,6 @@
 Name: ROKLive_EMEA_2022_Advanced
 Type: ProjectFolder
 Children:
-- Name: BranchingEnabled
-  Type: BaseDataVariableType
-  DataType: Boolean
-  Value: false
 - Name: PasswordPolicy
   Type: PasswordPolicy
   Children:
@@ -24,18 +20,6 @@ Children:
     Type: PropertyType
     DataType: Byte
     Value: 3
-- Name: Locales
-  Type: BaseDataVariableType
-  DataType: String
-  ValueRank: OneDimension
-  ArrayDimensions: [0]
-  Value: ["en-US"]
-- Name: LocaleFallbackList
-  Type: BaseDataVariableType
-  DataType: String
-  ValueRank: OneDimension
-  ArrayDimensions: [0]
-  Value: ["en-US"]
 - File: UI/UI.yaml
 - File: Model/Model.yaml
 - File: Converters/Converters.yaml
@@ -50,13 +34,42 @@ Children:
 - File: Security/Security.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
-- Name: DefaultUserFolder
-  Type: NodePointer
-  DataType: NodeId
-  Value: {"IdType":2,"Id":"e975124390d857a1b259a6d7cf4bfba4","Namespace":40}
-  Children:
-  - Name: Kind
-    Type: PropertyType
-    DataType: NodeId
-    Value: {"Id":61}
 - File: Audit/Audit.yaml
+- Name: Authentication
+  Type: PropertyGroup
+  Children:
+  - Name: DefaultUserFolder
+    Type: NodePointer
+    DataType: NodeId
+    ReferenceType: HasProperty
+    Value: {"IdType":2,"Id":"e975124390d857a1b259a6d7cf4bfba4","Namespace":40}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":61}
+- Name: AlarmConfiguration
+  Type: PropertyGroup
+  Children:
+  - Name: BranchingEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: false
+- Name: Localization
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: LocaleFallbackList
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]

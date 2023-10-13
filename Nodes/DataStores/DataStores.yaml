@@ -1,5 +1,5 @@
 Name: DataStores
-Type: FolderType
+Type: DataStoresCategoryFolder
 Children:
 - Name: EmbeddedDatabase
   Id: g=783e61253c9a291ffd671058261ba80c

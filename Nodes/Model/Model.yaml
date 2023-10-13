@@ -1,5 +1,5 @@
 Name: Model
-Type: FolderType
+Type: ModelCategoryFolder
 Children:
 - File: Dashboard/Dashboard.yaml
 - File: Drilling/Drilling.yaml

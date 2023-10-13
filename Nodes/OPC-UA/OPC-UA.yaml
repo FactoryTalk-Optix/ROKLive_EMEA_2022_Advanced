@@ -1,5 +1,5 @@
 Name: 'OPC-UA'
-Type: FolderType
+Type: OPCUACategoryFolder
 Children:
 - Name: OPCUAServer
   Type: OPCUAServer

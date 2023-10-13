@@ -1,5 +1,5 @@
 Name: Reports
-Type: FolderType
+Type: ReportsCategoryFolder
 Children:
 - Name: Reports
   Id: g=5a79c86306a6454f4b5bac1cba6af0a9
@@ -18,7 +18,26 @@ Children:
     - Name: EngineeringUnits
       Type: EUInformationType
       DataType: EUInformation
-      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Value: 
+       {
+        "TypeId": {
+         "Id": 887
+        },
+        "Body": {
+         "namespaceUri": "",
+         "unitId": 0,
+         "displayName": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         },
+         "description": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         }
+        }
+       }
       Children:
       - Name: UnitId
         Type: BaseVariableType
@@ -44,7 +63,26 @@ Children:
     - Name: EngineeringUnits
       Type: EUInformationType
       DataType: EUInformation
-      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Value: 
+       {
+        "TypeId": {
+         "Id": 887
+        },
+        "Body": {
+         "namespaceUri": "",
+         "unitId": 0,
+         "displayName": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         },
+         "description": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         }
+        }
+       }
       Children:
       - Name: UnitId
         Type: BaseVariableType
@@ -98,7 +136,26 @@ Children:
       - Name: EngineeringUnits
         Type: EUInformationType
         DataType: EUInformation
-        Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+        Value: 
+         {
+          "TypeId": {
+           "Id": 887
+          },
+          "Body": {
+           "namespaceUri": "",
+           "unitId": 0,
+           "displayName": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           },
+           "description": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           }
+          }
+         }
         Children:
         - Name: UnitId
           Type: BaseVariableType
@@ -131,7 +188,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -157,7 +233,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -191,7 +286,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -217,7 +331,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -243,7 +376,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -302,7 +454,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -328,7 +499,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -358,7 +548,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -384,7 +593,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -413,7 +641,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -458,7 +705,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -485,7 +751,26 @@ Children:
       - Name: EngineeringUnits
         Type: EUInformationType
         DataType: EUInformation
-        Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+        Value: 
+         {
+          "TypeId": {
+           "Id": 887
+          },
+          "Body": {
+           "namespaceUri": "",
+           "unitId": 0,
+           "displayName": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           },
+           "description": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           }
+          }
+         }
         Children:
         - Name: UnitId
           Type: BaseVariableType
@@ -526,7 +811,26 @@ Children:
             - Name: EngineeringUnits
               Type: EUInformationType
               DataType: EUInformation
-              Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
               Children:
               - Name: UnitId
                 Type: BaseVariableType
@@ -583,7 +887,26 @@ Children:
             - Name: EngineeringUnits
               Type: EUInformationType
               DataType: EUInformation
-              Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
               Children:
               - Name: UnitId
                 Type: BaseVariableType
@@ -640,7 +963,26 @@ Children:
             - Name: EngineeringUnits
               Type: EUInformationType
               DataType: EUInformation
-              Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
               Children:
               - Name: UnitId
                 Type: BaseVariableType
@@ -697,7 +1039,26 @@ Children:
             - Name: EngineeringUnits
               Type: EUInformationType
               DataType: EUInformation
-              Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
               Children:
               - Name: UnitId
                 Type: BaseVariableType
@@ -754,7 +1115,26 @@ Children:
             - Name: EngineeringUnits
               Type: EUInformationType
               DataType: EUInformation
-              Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
               Children:
               - Name: UnitId
                 Type: BaseVariableType
@@ -811,7 +1191,26 @@ Children:
             - Name: EngineeringUnits
               Type: EUInformationType
               DataType: EUInformation
-              Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
               Children:
               - Name: UnitId
                 Type: BaseVariableType
@@ -868,7 +1267,26 @@ Children:
             - Name: EngineeringUnits
               Type: EUInformationType
               DataType: EUInformation
-              Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
               Children:
               - Name: UnitId
                 Type: BaseVariableType
@@ -954,7 +1372,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -989,7 +1426,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1015,7 +1471,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1041,7 +1516,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1081,7 +1575,26 @@ Children:
       - Name: EngineeringUnits
         Type: EUInformationType
         DataType: EUInformation
-        Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+        Value: 
+         {
+          "TypeId": {
+           "Id": 887
+          },
+          "Body": {
+           "namespaceUri": "",
+           "unitId": 0,
+           "displayName": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           },
+           "description": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           }
+          }
+         }
         Children:
         - Name: UnitId
           Type: BaseVariableType
@@ -1110,7 +1623,26 @@ Children:
       - Name: EngineeringUnits
         Type: EUInformationType
         DataType: EUInformation
-        Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+        Value: 
+         {
+          "TypeId": {
+           "Id": 887
+          },
+          "Body": {
+           "namespaceUri": "",
+           "unitId": 0,
+           "displayName": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           },
+           "description": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           }
+          }
+         }
         Children:
         - Name: UnitId
           Type: BaseVariableType
@@ -1151,7 +1683,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1181,7 +1732,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1207,7 +1777,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1233,7 +1822,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1259,7 +1867,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1316,7 +1943,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1342,7 +1988,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1368,7 +2033,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1394,7 +2078,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1462,7 +2165,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1488,7 +2210,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1514,7 +2255,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1540,7 +2300,26 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1575,7 +2354,26 @@ Children:
       - Name: EngineeringUnits
         Type: EUInformationType
         DataType: EUInformation
-        Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+        Value: 
+         {
+          "TypeId": {
+           "Id": 887
+          },
+          "Body": {
+           "namespaceUri": "",
+           "unitId": 0,
+           "displayName": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           },
+           "description": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           }
+          }
+         }
         Children:
         - Name: UnitId
           Type: BaseVariableType
@@ -1604,7 +2402,26 @@ Children:
     - Name: EngineeringUnits
       Type: EUInformationType
       DataType: EUInformation
-      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Value: 
+       {
+        "TypeId": {
+         "Id": 887
+        },
+        "Body": {
+         "namespaceUri": "",
+         "unitId": 0,
+         "displayName": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         },
+         "description": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         }
+        }
+       }
       Children:
       - Name: UnitId
         Type: BaseVariableType
@@ -1644,6 +2461,11 @@ Children:
     Type: GaugeStyle
   - Name: NavigationPanelStyle
     Type: NavigationPanelStyle
+    Children:
+    - Name: IconUsesTextColor
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
   - Name: ChartStyle
     Type: ChartStyle
   - Name: DataListStyle
@@ -1671,7 +2493,26 @@ Children:
     - Name: EngineeringUnits
       Type: EUInformationType
       DataType: EUInformation
-      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Value: 
+       {
+        "TypeId": {
+         "Id": 887
+        },
+        "Body": {
+         "namespaceUri": "",
+         "unitId": 0,
+         "displayName": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         },
+         "description": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         }
+        }
+       }
       Children:
       - Name: UnitId
         Type: BaseVariableType
@@ -1706,6 +2547,11 @@ Children:
     Type: GaugeStyle
   - Name: NavigationPanelStyle
     Type: NavigationPanelStyle
+    Children:
+    - Name: IconUsesTextColor
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
   - Name: ChartStyle
     Type: ChartStyle
   - Name: DataListStyle
@@ -1741,7 +2587,26 @@ Children:
     - Name: EngineeringUnits
       Type: EUInformationType
       DataType: EUInformation
-      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Value: 
+       {
+        "TypeId": {
+         "Id": 887
+        },
+        "Body": {
+         "namespaceUri": "",
+         "unitId": 0,
+         "displayName": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         },
+         "description": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         }
+        }
+       }
       Children:
       - Name: UnitId
         Type: BaseVariableType

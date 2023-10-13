@@ -5,8 +5,8 @@ Project:
  Company: ''
  Copyright: ''
  FormatVersion: 1
- ProductVersion: 1.0
- CoreVersion: 1.0
+ ProductVersion: 1.2
+ CoreVersion: 2.0
  Dependencies:
   2:
    Uri: ROKLive_EMEA_2022_Advanced
@@ -32,11 +32,11 @@ Project:
   9:
    Uri: 'urn:FTOptix:Core:Net'
    Module: FTOptix.Core.Net
-   Version: 1.0
+   Version: 1.1
   10:
    Uri: 'urn:FTOptix:CoreBase'
    Module: FTOptix.CoreBase
-   Version: 1.0
+   Version: 2.1
   11:
    Uri: 'urn:FTOptix:CoreBase:Net'
    Module: FTOptix.CoreBase.Net

@@ -1,5 +1,5 @@
 Name: Converters
-Type: FolderType
+Type: ConvertersCategoryFolder
 Children:
 - Name: UsersActionsConverter
   Id: g=96b585d0dfefe0eafa2ccb63fb0938df
