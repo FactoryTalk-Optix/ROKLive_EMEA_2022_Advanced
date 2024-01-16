@@ -14,7 +14,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":71,"Namespace":15}
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
     - Name: ConditionalConverter1
       Type: ConditionalConverter
       Children:
@@ -33,13 +33,13 @@ Children:
         DataType: NodeId
         ReferenceType: HasParameter
         ModellingRule: Optional
-        Value: {"IdType":2,"Id":"95988993bc57f00e2ad081fb93f44f00","Namespace":40}
+        Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Templates/LoginFormComponents/LoginFormComponents/Logout"
       - Name: FalseValue
         Type: BaseDataVariableType
         DataType: NodeId
         ReferenceType: HasParameter
         ModellingRule: Optional
-        Value: {"IdType":2,"Id":"04e822d1b7f036f2267328c97d15f4e2","Namespace":40}
+        Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Templates/LoginFormComponents/LoginFormComponents/Login"
   - Name: CurrentPanel
     Type: NodePointer
     DataType: NodeId
@@ -49,7 +49,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":6,"Namespace":15}
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
   - Class: Reference
     Target: ns=15;i=478
     Direction: Forward
@@ -66,15 +66,16 @@ Children:
   - Name: Users
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"e975124390d857a1b259a6d7cf4bfba4","Namespace":40}
+    Value: "/Objects/ROKLive_EMEA_2022_Advanced/Security/Users"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":61}
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
   - Name: PanelAliasNode
     Type: BaseDataVariableType
     DataType: NodeId
+    ValueRank: ScalarOrOneDimension
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: DynamicLink

@@ -398,7 +398,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=40;g=cbef505b-f239-f966-efeb-48070e402492}"
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Dashboard/eCharts/eChart1"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -456,7 +456,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":690,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -471,7 +471,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -535,7 +535,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=40;g=a97592f0-b51f-3f48-75be-ab37a885b938}"
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Dashboard/eCharts/eChart2"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -593,7 +593,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":690,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -608,7 +608,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -672,7 +672,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=40;g=86393057-e167-816b-a801-3782501911ec}"
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Dashboard/eCharts/eChart3"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -730,7 +730,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":690,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -745,7 +745,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -809,7 +809,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=40;g=ad80a035-9a63-a124-7cbf-081d0f3087de}"
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Dashboard/eCharts/eChart4"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -867,7 +867,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":690,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -882,7 +882,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -946,7 +946,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=40;g=50a1f7c7-444d-3b7a-1e3e-9eeb61a2e94d}"
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Dashboard/eCharts/eChart5"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -1004,7 +1004,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":690,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -1019,7 +1019,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -1083,7 +1083,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=40;g=85bd943c-0ea5-ad1f-2ab5-fa9d14c41ea6}"
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Dashboard/eCharts/eChart6"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -1141,7 +1141,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":690,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -1156,7 +1156,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -1449,7 +1449,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -1464,7 +1464,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: NodeClass
                 Type: PropertyType
                 DataType: NodePointerNodeClass
@@ -1568,7 +1568,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -1578,12 +1578,12 @@ Children:
             - Name: ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":64,"Namespace":25}
+              Value: "/Objects/Commands/AlarmCommands"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: NodeClass
                 Type: PropertyType
                 DataType: NodePointerNodeClass
@@ -1672,7 +1672,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -1687,7 +1687,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: NodeClass
                 Type: PropertyType
                 DataType: NodePointerNodeClass
@@ -1791,7 +1791,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -1801,12 +1801,12 @@ Children:
             - Name: ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":64,"Namespace":25}
+              Value: "/Objects/Commands/AlarmCommands"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: NodeClass
                 Type: PropertyType
                 DataType: NodePointerNodeClass
@@ -1915,7 +1915,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -1925,12 +1925,12 @@ Children:
             - Name: ns=11;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":121,"Namespace":15}
+              Value: "/Objects/Commands/UICommands"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=11;Method
               Type: BaseDataVariableType
               DataType: String
@@ -1987,7 +1987,7 @@ Children:
                         Type: BaseDataVariableType
                         DataType: NodeId
                         ModellingRule: None
-                        Value: {"IdType":2,"Id":"ef94b46a12f3ba1776e473e5f3a3fd52","Namespace":40}
+                        Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/DialogBox/ShowVideo"
                     - Name: Pair2
                       Type: ValueMapPair
                       ModellingRule: None
@@ -2001,11 +2001,12 @@ Children:
                         Type: BaseDataVariableType
                         DataType: NodeId
                         ModellingRule: None
-                        Value: {"IdType":2,"Id":"bbc0990dddd7f77258ac4104d57a3f68","Namespace":40}
+                        Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/DialogBox/ShowPDF"
               - Name: AliasNode
                 Type: BaseDataVariableType
                 DataType: NodeId
                 Description: {"NamespaceIndex":15,"TextId":"OpenDialogAliasNodeDescription"}
+                ValueRank: ScalarOrOneDimension
                 Value: {"IdType":0,"Id":0,"Namespace":-1}
               - Name: ParentItem
                 Type: BaseDataVariableType
@@ -2150,7 +2151,7 @@ Children:
         - Name: ItemKind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2915}
+          Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
@@ -2158,7 +2159,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=25;i=45}@Pointer"
+          Value: "/Objects/RetainedAlarms/LocalizedAlarms@Pointer"
       - Name: Query
         Type: BaseDataVariableType
         DataType: String
@@ -2600,7 +2601,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2915}
+          Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -2619,7 +2620,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2915}
+          Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
       - Name: SortOrder
         Type: BaseDataVariableType
         DataType: SortOrderEnum
@@ -3160,7 +3161,7 @@ Children:
       - Name: Model
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"783e61253c9a291ffd671058261ba80c","Namespace":40}
+        Value: "/Objects/ROKLive_EMEA_2022_Advanced/DataStores/EmbeddedDatabase"
         Children:
         - Name: ItemKind
           Type: PropertyType
@@ -3354,7 +3355,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":674,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/UserSelectionChanged"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -3364,12 +3365,12 @@ Children:
             - Name: ns=11;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":22,"Namespace":11}
+              Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=11;Method
               Type: BaseDataVariableType
               DataType: String
@@ -3421,12 +3422,12 @@ Children:
             - Name: ns=11;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":22,"Namespace":11}
+              Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=11;Method
               Type: BaseDataVariableType
               DataType: String
@@ -3478,12 +3479,12 @@ Children:
             - Name: ns=11;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":22,"Namespace":11}
+              Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=11;Method
               Type: BaseDataVariableType
               DataType: String
@@ -3625,7 +3626,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -3635,12 +3636,12 @@ Children:
             - Name: ns=11;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":2,"Id":"783e61253c9a291ffd671058261ba80c","Namespace":40}
+              Value: "/Objects/ROKLive_EMEA_2022_Advanced/DataStores/EmbeddedDatabase"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=11;Method
               Type: BaseDataVariableType
               DataType: String
@@ -3708,7 +3709,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -3835,7 +3836,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -3845,12 +3846,12 @@ Children:
             - Name: ns=11;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":2,"Id":"783e61253c9a291ffd671058261ba80c","Namespace":40}
+              Value: "/Objects/ROKLive_EMEA_2022_Advanced/DataStores/EmbeddedDatabase"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=11;Method
               Type: BaseDataVariableType
               DataType: String
@@ -3909,7 +3910,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -4842,7 +4843,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":15}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -4852,12 +4853,12 @@ Children:
               - Name: ns=11;ObjectPointer
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"IdType":2,"Id":"783e61253c9a291ffd671058261ba80c","Namespace":40}
+                Value: "/Objects/ROKLive_EMEA_2022_Advanced/DataStores/EmbeddedDatabase"
                 Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: ns=11;Method
                 Type: BaseDataVariableType
                 DataType: String
@@ -4881,7 +4882,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{NodeId:ns=40;g=b32475c2-bbad-55ec-a706-7639eddd3038}"
+                    Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Slurry/Columns"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
@@ -4898,7 +4899,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{NodeId:ns=40;g=19ff843f-d360-92ab-8e57-3f4e3635eef9}"
+                    Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Slurry/ColumnsValue"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
@@ -4916,7 +4917,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -5364,7 +5365,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":15}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -5374,12 +5375,12 @@ Children:
               - Name: ns=11;ObjectPointer
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"IdType":2,"Id":"783e61253c9a291ffd671058261ba80c","Namespace":40}
+                Value: "/Objects/ROKLive_EMEA_2022_Advanced/DataStores/EmbeddedDatabase"
                 Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: ns=11;Method
                 Type: BaseDataVariableType
                 DataType: String
@@ -5456,7 +5457,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -5560,7 +5561,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -5575,7 +5576,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -5919,7 +5920,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -5929,12 +5930,12 @@ Children:
             - Name: ns=11;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":2,"Id":"5a79c86306a6454f4b5bac1cba6af0a9","Namespace":40}
+              Value: "/Objects/ROKLive_EMEA_2022_Advanced/Reports/Reports"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=11;Method
               Type: BaseDataVariableType
               DataType: String
@@ -5946,10 +5947,10 @@ Children:
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Description: {"NamespaceIndex":13,"TextId":"GeneratePdfOutputPathDescription"}
-                Value: "ns=40;%APPLICATIONDIR%/CoatingProcessReport.pdf"
+                Value: "ns=40;%PROJECTDIR%/CoatingProcessReport.pdf"
               - Name: LocaleId
                 Type: BaseDataVariableType
-                DataType: String
+                DataType: LocaleId
                 Description: {"NamespaceIndex":13,"TextId":"GeneratePdfLocaleIdDescription"}
                 Value: ""
             - Name: OutputArguments
@@ -6054,7 +6055,7 @@ Children:
       - Name: Model
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"783e61253c9a291ffd671058261ba80c","Namespace":40}
+        Value: "/Objects/ROKLive_EMEA_2022_Advanced/DataStores/EmbeddedDatabase"
         Children:
         - Name: ItemKind
           Type: PropertyType
@@ -6419,7 +6420,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":690,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -6429,12 +6430,12 @@ Children:
             - Name: ns=11;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":22,"Namespace":11}
+              Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=11;Method
               Type: BaseDataVariableType
               DataType: String
@@ -6445,11 +6446,11 @@ Children:
               - Name: VariableToModify
                 Type: BaseDataVariableType
                 DataType: VariablePointer
-                Value: {"IdType":2,"Id":"34760f6621a760fe6c824bbd2446e0d9","Namespace":40}
+                Value: "/Objects/ROKLive_EMEA_2022_Advanced/Reports/Reports/StyleSheet@Pointer"
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: NodeId
-                Value: {"IdType":2,"Id":"f05a116276ecaa46f6864556cb19b71d","Namespace":40}
+                Value: "/Objects/ROKLive_EMEA_2022_Advanced/Reports/StyleSheet2"
               - Name: ArrayIndex
                 Type: BaseDataVariableType
                 DataType: UInt32
@@ -6461,12 +6462,12 @@ Children:
             - Name: ns=11;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":22,"Namespace":11}
+              Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=11;Method
               Type: BaseDataVariableType
               DataType: String
@@ -6564,7 +6565,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":690,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -6574,12 +6575,12 @@ Children:
             - Name: ns=11;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":22,"Namespace":11}
+              Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=11;Method
               Type: BaseDataVariableType
               DataType: String
@@ -6590,11 +6591,11 @@ Children:
               - Name: VariableToModify
                 Type: BaseDataVariableType
                 DataType: VariablePointer
-                Value: {"IdType":2,"Id":"34760f6621a760fe6c824bbd2446e0d9","Namespace":40}
+                Value: "/Objects/ROKLive_EMEA_2022_Advanced/Reports/Reports/StyleSheet@Pointer"
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: NodeId
-                Value: {"IdType":2,"Id":"b6f0d0c8ac4746b15bbe5a5d6649f84f","Namespace":40}
+                Value: "/Objects/ROKLive_EMEA_2022_Advanced/Reports/StyleSheet1"
               - Name: ArrayIndex
                 Type: BaseDataVariableType
                 DataType: UInt32
@@ -6606,12 +6607,12 @@ Children:
             - Name: ns=11;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":22,"Namespace":11}
+              Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=11;Method
               Type: BaseDataVariableType
               DataType: String
@@ -7811,7 +7812,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=40;g=530e7058-805e-159b-c0fd-5dc04ed1c4a1}"
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Drying/ConditionalValueSource"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -7958,7 +7959,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "{NodeId:ns=40;g=530e7058-805e-159b-c0fd-5dc04ed1c4a1}"
+                  Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Drying/ConditionalValueSource"
           - Name: TrueValue
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -7997,7 +7998,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{NodeId:ns=40;g=530e7058-805e-159b-c0fd-5dc04ed1c4a1}"
+                      Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Drying/ConditionalValueSource"
               - Name: TrueValue
                 Type: BaseDataVariableType
                 DataType: LocalizedText
@@ -8036,7 +8037,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{NodeId:ns=40;g=530e7058-805e-159b-c0fd-5dc04ed1c4a1}"
+                          Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Drying/ConditionalValueSource"
                   - Name: TrueValue
                     Type: BaseDataVariableType
                     DataType: LocalizedText
@@ -8255,7 +8256,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=40;g=33540f2e-e2a9-1225-dea7-65afa0fed248}"
+              Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Drying/KeyValueSource"
           - Name: Pairs
             Type: BaseObjectType
             Children:
@@ -8419,7 +8420,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -8429,12 +8430,12 @@ Children:
             - Name: ns=11;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":22,"Namespace":11}
+              Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=11;Method
               Type: BaseDataVariableType
               DataType: String
@@ -8446,7 +8447,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: VariablePointer
                 Description: {"NamespaceIndex":11,"TextId":"IncrementVariableToModifyDescription"}
-                Value: {"IdType":2,"Id":"33540f2ee2a91225dea765afa0fed248","Namespace":40}
+                Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Drying/KeyValueSource"
               - Name: Delta
                 Type: BaseDataVariableType
                 DataType: Float
@@ -8515,7 +8516,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=40;g=33540f2e-e2a9-1225-dea7-65afa0fed248}"
+              Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Drying/KeyValueSource"
     - Name: NextPage
       Type: Button
       Children:
@@ -8570,7 +8571,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -8580,12 +8581,12 @@ Children:
             - Name: ns=11;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":22,"Namespace":11}
+              Value: "/Objects/Commands/VariableCommands"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=11;Method
               Type: BaseDataVariableType
               DataType: String
@@ -8597,7 +8598,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: VariablePointer
                 Description: {"NamespaceIndex":11,"TextId":"IncrementVariableToModifyDescription"}
-                Value: {"IdType":2,"Id":"33540f2ee2a91225dea765afa0fed248","Namespace":40}
+                Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Drying/KeyValueSource"
               - Name: Delta
                 Type: BaseDataVariableType
                 DataType: Float
@@ -8666,6 +8667,6 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=40;g=33540f2e-e2a9-1225-dea7-65afa0fed248}"
+              Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Drying/KeyValueSource"
 - File: Calendaring/Calendaring.yaml
 - File: Slitting/Slitting.yaml

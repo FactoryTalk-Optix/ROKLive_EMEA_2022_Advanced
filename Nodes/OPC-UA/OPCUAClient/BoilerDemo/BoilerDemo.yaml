@@ -47,13 +47,13 @@ Children:
            "Id": 887
           },
           "Body": {
-           "namespaceUri": "http://www.opcfoundation.org/UA/units/un/cefact",
-           "unitId": 5002322,
-           "displayName": {
+           "NamespaceUri": "http://www.opcfoundation.org/UA/units/un/cefact",
+           "UnitId": 5002322,
+           "DisplayName": {
             "LocaleId": "en-US",
             "Text": "l"
            },
-           "description": {
+           "Description": {
             "LocaleId": "en-US",
             "Text": "litre"
            }
@@ -81,18 +81,8 @@ Children:
       - Name: EURange
         Id: ns=5;s=Demo.BoilerDemo.Boiler1.FillLevelSensor.FillLevel.EURange
         Type: RangeType
-        DataType: EURange
+        DataType: Range
         DisplayName: {"LocaleId":"","Text":"EURange"}
-        Value: 
-         {
-          "TypeId": {
-           "Id": 884
-          },
-          "Body": {
-           "low": 0.0,
-           "high": 0.0
-          }
-         }
         Children:
         - Name: Low
           Type: BaseVariableType
@@ -154,13 +144,13 @@ Children:
            "Id": 887
           },
           "Body": {
-           "namespaceUri": "http://www.opcfoundation.org/UA/units/un/cefact",
-           "unitId": 4408652,
-           "displayName": {
+           "NamespaceUri": "http://www.opcfoundation.org/UA/units/un/cefact",
+           "UnitId": 4408652,
+           "DisplayName": {
             "LocaleId": "en-US",
             "Text": "°C"
            },
-           "description": {
+           "Description": {
             "LocaleId": "en-US",
             "Text": "degree Celsius"
            }
@@ -188,7 +178,7 @@ Children:
       - Name: EURange
         Id: ns=5;s=Demo.BoilerDemo.Boiler1.TemperatureSensor.Temperature.EURange
         Type: RangeType
-        DataType: EURange
+        DataType: Range
         DisplayName: {"LocaleId":"","Text":"EURange"}
         Value: 
          {
@@ -196,8 +186,8 @@ Children:
            "Id": 884
           },
           "Body": {
-           "low": 0.0,
-           "high": 100.0
+           "Low": 0.0,
+           "High": 100.0
           }
          }
         Children:

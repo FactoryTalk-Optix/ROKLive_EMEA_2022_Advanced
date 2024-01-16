@@ -12,12 +12,12 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"783e61253c9a291ffd671058261ba80c","Namespace":40}
+    Value: "/Objects/ROKLive_EMEA_2022_Advanced/DataStores/EmbeddedDatabase"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":31}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
     - Name: NodeClass
       Type: PropertyType
       DataType: NodePointerNodeClass
@@ -79,12 +79,12 @@ Children:
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"Id":2915}
+        Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2041}
+          Value: "/Types/EventTypes/BaseEventType"
         - Name: NodeClass
           Type: PropertyType
           DataType: NodePointerNodeClass
@@ -135,16 +135,6 @@ Children:
     - Name: LocalTime
       Type: BaseDataVariableType
       DataType: TimeZoneDataType
-      Value: 
-       {
-        "TypeId": {
-         "Id": 8912
-        },
-        "Body": {
-         "offset": 0,
-         "daylightSavingInOffset": false
-        }
-       }
   - Name: EventFieldsToLog
     Type: BaseObjectType
     Children:
@@ -316,7 +306,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"783e61253c9a291ffd671058261ba80c","Namespace":40}
+    Value: "/Objects/ROKLive_EMEA_2022_Advanced/DataStores/EmbeddedDatabase"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -332,22 +322,22 @@ Children:
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"Id":65,"Namespace":23}
+        Value: "/Types/EventTypes/BaseEventType/AuditEventType/AuditSigningWorkflowEvent/AuditSigningWorkflowStartedEvent"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2041}
+          Value: "/Types/EventTypes/BaseEventType"
       - Name: EventSource
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"IdType":2,"Id":"72caebf9f6ae85f6d30a5787e9ccff34","Namespace":40}
+        Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Calendaring/AuditWorkflow"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":58}
+          Value: "/Types/ObjectTypes/BaseObjectType"
     - Name: EventConfiguration2
       Type: EventConfiguration
       Children:
@@ -355,22 +345,22 @@ Children:
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"Id":66,"Namespace":23}
+        Value: "/Types/EventTypes/BaseEventType/AuditEventType/AuditSigningWorkflowEvent/AuditSigningWorkflowCompletedEvent"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2041}
+          Value: "/Types/EventTypes/BaseEventType"
       - Name: EventSource
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"IdType":2,"Id":"72caebf9f6ae85f6d30a5787e9ccff34","Namespace":40}
+        Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Calendaring/AuditWorkflow"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":58}
+          Value: "/Types/ObjectTypes/BaseObjectType"
   - Name: EventFieldPaths
     Type: BaseObjectType
     Children:
@@ -698,12 +688,12 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"783e61253c9a291ffd671058261ba80c","Namespace":40}
+    Value: "/Objects/ROKLive_EMEA_2022_Advanced/DataStores/EmbeddedDatabase"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":31}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: EventConfigurations
     Type: BaseObjectType
     Children:
@@ -714,12 +704,12 @@ Children:
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"Id":215,"Namespace":1}
+        Value: "/Types/EventTypes/BaseEventType/AuditEventType/UserSessionEvent"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2041}
+          Value: "/Types/EventTypes/BaseEventType"
   - Name: EventFieldPaths
     Type: BaseObjectType
     Children:
@@ -812,12 +802,12 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"783e61253c9a291ffd671058261ba80c","Namespace":40}
+    Value: "/Objects/ROKLive_EMEA_2022_Advanced/DataStores/EmbeddedDatabase"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":31}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: EventConfigurations
     Type: BaseObjectType
     Children:
@@ -828,12 +818,12 @@ Children:
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"Id":129,"Namespace":1}
+        Value: "/Types/EventTypes/BaseEventType/LogEvent"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2041}
+          Value: "/Types/EventTypes/BaseEventType"
   - Name: EventFieldPaths
     Type: BaseObjectType
     Children:
@@ -925,12 +915,12 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"783e61253c9a291ffd671058261ba80c","Namespace":40}
+    Value: "/Objects/ROKLive_EMEA_2022_Advanced/DataStores/EmbeddedDatabase"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":31}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: VariablesToLog
     Type: BaseObjectType
     Children:

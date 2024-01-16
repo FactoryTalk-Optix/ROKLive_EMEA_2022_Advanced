@@ -8,17 +8,7 @@ Children:
   Children:
   - Name: EURange
     Type: RangeType
-    DataType: EURange
-    Value: 
-     {
-      "TypeId": {
-       "Id": 884
-      },
-      "Body": {
-       "low": 0.0,
-       "high": 0.0
-      }
-     }
+    DataType: Range
     Children:
     - Name: Low
       Type: BaseVariableType
@@ -38,26 +28,6 @@ Children:
   - Name: EngineeringUnits
     Type: EUInformationType
     DataType: EUInformation
-    Value: 
-     {
-      "TypeId": {
-       "Id": 887
-      },
-      "Body": {
-       "namespaceUri": "",
-       "unitId": 0,
-       "displayName": {
-        "NamespaceIndex": -1,
-        "LocaleId": "",
-        "Text": ""
-       },
-       "description": {
-        "NamespaceIndex": -1,
-        "LocaleId": "",
-        "Text": ""
-       }
-      }
-     }
     Children:
     - Name: UnitId
       Type: BaseVariableType

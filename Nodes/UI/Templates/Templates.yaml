@@ -1440,7 +1440,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":16,"Namespace":15}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -1450,12 +1450,12 @@ Children:
           - Name: ns=11;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":11}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: ns=11;Method
             Type: BaseDataVariableType
             DataType: String
@@ -1574,7 +1574,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":16,"Namespace":15}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -1584,12 +1584,12 @@ Children:
           - Name: ns=11;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":11}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: ns=11;Method
             Type: BaseDataVariableType
             DataType: String
@@ -1675,7 +1675,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":71,"Namespace":15}
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
@@ -1685,7 +1685,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":6,"Namespace":15}
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
     - Class: Reference
       Target: ns=15;i=478
       Direction: Forward
@@ -2115,17 +2115,7 @@ Children:
     Children:
     - Name: ns=0;EURange
       Type: RangeType
-      DataType: EURange
-      Value: 
-       {
-        "TypeId": {
-         "Id": 884
-        },
-        "Body": {
-         "low": 0.0,
-         "high": 0.0
-        }
-       }
+      DataType: Range
       Children:
       - Name: Low
         Type: BaseVariableType
@@ -2382,7 +2372,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":15}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -2397,7 +2387,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -2424,6 +2414,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Description: {"NamespaceIndex":15,"TextId":"ChangePanelAliasNodeDescription"}
+                  ValueRank: ScalarOrOneDimension
                   Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: MethodContainer2
               Type: BaseObjectType
@@ -2436,7 +2427,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -2463,6 +2454,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Description: {"NamespaceIndex":15,"TextId":"ChangePanelAliasNodeDescription"}
+                  ValueRank: ScalarOrOneDimension
                   Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: EventArguments
             Type: MouseClickEvent
@@ -3344,7 +3336,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":62}
+            Value: "/Types/VariableTypes/BaseVariableType"
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
@@ -4817,7 +4809,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":62}
+            Value: "/Types/VariableTypes/BaseVariableType"
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
@@ -4923,7 +4915,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":62}
+            Value: "/Types/VariableTypes/BaseVariableType"
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
@@ -4988,7 +4980,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":62}
+            Value: "/Types/VariableTypes/BaseVariableType"
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
@@ -5053,7 +5045,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":62}
+            Value: "/Types/VariableTypes/BaseVariableType"
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
@@ -5120,7 +5112,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":16,"Namespace":15}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -5130,12 +5122,12 @@ Children:
           - Name: ns=11;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":29,"Namespace":11}
+            Value: "/Objects/Commands/CoreCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: ns=11;Method
             Type: BaseDataVariableType
             DataType: String
@@ -6473,7 +6465,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":62}
+            Value: "/Types/VariableTypes/BaseVariableType"
         - Name: Running
           Type: BaseDataVariableType
           DataType: Boolean
@@ -6493,7 +6485,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":62}
+            Value: "/Types/VariableTypes/BaseVariableType"
         - Name: Running
           Type: BaseDataVariableType
           DataType: Boolean
@@ -6617,7 +6609,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":62}
+              Value: "/Types/VariableTypes/BaseVariableType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -6646,7 +6638,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":62}
+              Value: "/Types/VariableTypes/BaseVariableType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -6784,7 +6776,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":62}
+              Value: "/Types/VariableTypes/BaseVariableType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -6813,7 +6805,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":62}
+              Value: "/Types/VariableTypes/BaseVariableType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -6951,7 +6943,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":62}
+              Value: "/Types/VariableTypes/BaseVariableType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -6980,7 +6972,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":62}
+              Value: "/Types/VariableTypes/BaseVariableType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -7118,7 +7110,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":62}
+              Value: "/Types/VariableTypes/BaseVariableType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -7147,7 +7139,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":62}
+              Value: "/Types/VariableTypes/BaseVariableType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -7202,7 +7194,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":71,"Namespace":15}
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
@@ -7212,7 +7204,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":6,"Namespace":15}
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
     - Class: Reference
       Target: ns=15;i=478
       Direction: Forward
@@ -7960,7 +7952,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":16,"Namespace":15}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -7975,7 +7967,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -8079,7 +8071,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":16,"Namespace":15}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -8094,7 +8086,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -8395,7 +8387,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"1035a5a1ffc832ddcb484f2bea8ba643","Namespace":40}
+      Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Slitting/OPC_Items/Type/MotorWithBehaviorType"
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
@@ -8416,7 +8408,7 @@ Children:
     - Name: Model
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"ea5d12b3420b1c66be90491d5248caa9","Namespace":40}
+      Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Slitting/OPC_Items/Instances"
       Children:
       - Name: ItemKind
         Type: PropertyType
@@ -9013,7 +9005,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":16,"Namespace":15}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -9028,7 +9020,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -9135,7 +9127,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1003,"Namespace":5}
+      Value: "/Objects/ROKLive_EMEA_2022_Advanced/OPC-UA/OPCUAClient/Objects/BoilerType"
   - Name: MeasurementUnit
     Type: Label
     Children:
@@ -9546,7 +9538,7 @@ Children:
     - Name: ListenEventType
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":16,"Namespace":15}
+      Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
     - Name: MethodsToCall
       Type: BaseObjectType
       Children:
@@ -9556,12 +9548,12 @@ Children:
         - Name: ns=11;ObjectPointer
           Type: NodePointer
           DataType: NodeId
-          Value: {"Id":121,"Namespace":15}
+          Value: "/Objects/Commands/UICommands"
           Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":58}
+            Value: "/Types/ObjectTypes/BaseObjectType"
         - Name: ns=11;Method
           Type: BaseDataVariableType
           DataType: String
@@ -9573,11 +9565,12 @@ Children:
             Type: BaseDataVariableType
             DataType: NodeId
             Description: {"NamespaceIndex":15,"TextId":"OpenDialogDialogDescription"}
-            Value: {"IdType":2,"Id":"1ef9d32f0877061c4530287839af2bd4","Namespace":40}
+            Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/DialogBox/ShowReport"
           - Name: AliasNode
             Type: BaseDataVariableType
             DataType: NodeId
             Description: {"NamespaceIndex":15,"TextId":"OpenDialogAliasNodeDescription"}
+            ValueRank: ScalarOrOneDimension
             Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: ParentItem
             Type: BaseDataVariableType

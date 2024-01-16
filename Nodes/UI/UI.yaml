@@ -6,216 +6,6 @@ Children:
   Type: StyleSheet
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
-  - Name: ButtonStyle
-    Type: ButtonStyle
-    Children:
-    - Name: FocusBorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#55ffdf"
-    - Name: PressedBorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#55ffdf"
-    - Name: BorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#375454"
-    - Name: Color
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#41445f"
-    - Name: PressedColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#41445f"
-    - Name: BorderWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      Value: 2.0
-  - Name: ButtonAccentStyle
-    Type: ButtonStyle
-    Children:
-    - Name: Color
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#55ffdf"
-    - Name: FocusBorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#55ffdf"
-    - Name: BorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#41445f"
-    - Name: TextColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#41445f"
-  - Name: DataInputStyle
-    Type: DataInputStyle
-    Children:
-    - Name: PlaceHolderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#6e7f91"
-    - Name: FocusBorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#55ffdf"
-    - Name: BorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#55ffdf"
-    - Name: BackgroundColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#0c1524"
-  - Name: SwitchStyle
-    Type: SwitchStyle
-    Children:
-    - Name: HandleColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#55ffdf"
-    - Name: BackgroundColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#41445f"
-    - Name: HandleBorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#cfcfcf"
-    - Name: Radius
-      Type: BaseDataVariableType
-      DataType: Size
-      Value: -1.0
-    - Name: BorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#41445f"
-    - Name: ActiveBackgroundColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#375454"
-  - Name: GaugeStyle
-    Type: GaugeStyle
-    Children:
-    - Name: HandleColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#ffffff"
-    - Name: Radius
-      Type: BaseDataVariableType
-      DataType: Size
-      Value: 3.0
-    - Name: HandleSize
-      Type: BaseDataVariableType
-      DataType: Size
-      Value: 18.0
-    - Name: ForegroundColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#55ffdf"
-    - Name: BackgroundColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#0c1524"
-  - Name: NavigationPanelStyle
-    Type: NavigationPanelStyle
-    Children:
-    - Name: Radius
-      Type: BaseDataVariableType
-      DataType: Size
-      Value: 0.0
-    - Name: IconUsesTextColor
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Value: true
-  - Name: ChartStyle
-    Type: ChartStyle
-    Children:
-    - Name: GridColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#304155"
-    - Name: AxisColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#304155"
-  - Name: DataListStyle
-    Type: DataListStyle
-    Children:
-    - Name: BorderWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      Value: 2.0
-    - Name: VerticalLineColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#60657700"
-    - Name: HeaderBorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#55ffdf"
-    - Name: BackgroundColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#37545481"
-    - Name: HeaderBackgroundColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#375454"
-    - Name: SelectionTextColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#375454"
-    - Name: SelectionBorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#55ffdf"
-    - Name: BorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#3b506700"
-    - Name: HorizontalLineColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#606577bd"
-  - Name: ToolTipStyle
-    Type: ToolTipStyle
-    Children:
-    - Name: BackgroundColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#243140"
-  - Name: ScrollBarStyle
-    Type: ScrollBarStyle
-    Children:
-    - Name: BackgroundColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#1b2733"
-    - Name: Size
-      Type: BaseDataVariableType
-      DataType: Size
-      Value: 10.0
-    - Name: AutoHide
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Value: true
-    - Name: HandleColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#55ffdf"
-    - Name: HandleBorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#61e4cb"
-    - Name: HandleRadius
-      Type: BaseDataVariableType
-      DataType: Size
-      Value: 3.0
   - Name: WindowColor
     Type: BaseDataVariableType
     DataType: Color
@@ -256,17 +46,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Color
     Value: "#3b5067"
-  - Name: AccordionStyle
-    Type: AccordionStyle
-  - Name: PieChartStyle
-    Type: PieChartStyle
-  - Name: HistogramChartStyle
-    Type: HistogramChartStyle
-    Children:
-    - Name: Spacing
-      Type: BaseDataVariableType
-      DataType: Size
-      Value: 15.0
   - Name: FontFamily
     Type: BaseDataVariableType
     DataType: Font
@@ -287,6 +66,368 @@ Children:
     Type: BaseDataVariableType
     DataType: Color
     Value: "#41445f"
+  - Name: ButtonStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ButtonStyle
+      Children:
+      - Name: FocusBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#55ffdf"
+      - Name: PressedBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#55ffdf"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#375454"
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#41445f"
+      - Name: PressedColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#41445f"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.0
+    - Name: Accent
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#55ffdf"
+      - Name: FocusBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#55ffdf"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#41445f"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#41445f"
+    - Name: BorderedRectangular
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#55ffdf"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#41445f"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#41445f"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+    - Name: BorderedCircular
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#55ffdf"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#41445f"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#41445f"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Emergency
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8e71c"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Transparent
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+  - Name: InputBoxStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: InputBoxStyle
+      Children:
+      - Name: PlaceHolderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#6e7f91"
+      - Name: FocusBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#55ffdf"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#55ffdf"
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0c1524"
+  - Name: SwitchStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: SwitchStyle
+      Children:
+      - Name: HandleColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#55ffdf"
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#41445f"
+      - Name: HandleBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#cfcfcf"
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#41445f"
+      - Name: ActiveBackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#375454"
+  - Name: GaugeStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: GaugeStyle
+      Children:
+      - Name: HandleColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 3.0
+      - Name: HandleSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 18.0
+      - Name: ForegroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#55ffdf"
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0c1524"
+  - Name: NavigationPanelStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: NavigationPanelStyle
+      Children:
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: IconUsesTextColor
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+  - Name: ChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ChartStyle
+      Children:
+      - Name: GridColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#304155"
+      - Name: AxisColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#304155"
+  - Name: DataListStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: DataListStyle
+      Children:
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.0
+      - Name: VerticalLineColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#60657700"
+      - Name: HeaderBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#55ffdf"
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#37545481"
+      - Name: HeaderBackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#375454"
+      - Name: SelectionTextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#375454"
+      - Name: SelectionBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#55ffdf"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3b506700"
+      - Name: HorizontalLineColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#606577bd"
+  - Name: ToolTipStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ToolTipStyle
+      Children:
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#243140"
+  - Name: ScrollBarStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ScrollBarStyle
+      Children:
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#1b2733"
+      - Name: Size
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
+      - Name: AutoHide
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: HandleColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#55ffdf"
+      - Name: HandleBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#61e4cb"
+      - Name: HandleRadius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 3.0
+  - Name: AccordionStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: AccordionStyle
+  - Name: PieChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: PieChartStyle
+  - Name: HistogramChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: HistogramChartStyle
+      Children:
+      - Name: Spacing
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 15.0
+  - Name: LabelStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: LabelStyle
+  - Name: RadioButtonStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: RadioButtonStyle
+      Children:
+      - Name: IndicatorSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+  - Name: CheckBoxStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: CheckBoxStyle
+      Children:
+      - Name: IndicatorSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 18.0
 - Name: WebPresentationEngine
   Type: ns=38;PresentationEngine
   Children:
@@ -305,30 +446,30 @@ Children:
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"d862a361102100185c75fd7832c8703a","Namespace":40}
+    Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/MainWindow"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":12,"Namespace":15}
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
   - Name: StyleSheet
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"c344ea61ac9317267448bdae38f4a8c0","Namespace":40}
+    Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/FriendlyDark"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":447,"Namespace":15}
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
   - Name: StartingUser
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"e5a72c816302fcae9ca4ed61437a75e7","Namespace":40}
+    Value: "/Objects/ROKLive_EMEA_2022_Advanced/Security/Users/John"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":14,"Namespace":1}
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
   - Name: Sessions
     Type: BaseObjectType
     Children:
@@ -359,7 +500,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":14,"Namespace":1}
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
       - Name: ActualLocaleId
         Type: BaseVariableType
         DataType: LocaleId
@@ -380,16 +521,6 @@ Children:
         DataType: TimeZoneDataType
         ReferenceType: HasProperty
         AccessLevel: Read
-        Value: 
-         {
-          "TypeId": {
-           "Id": 8912
-          },
-          "Body": {
-           "offset": 0,
-           "daylightSavingInOffset": false
-          }
-         }
       - Name: MeasurementUnits
         Type: BaseObjectType
         Children:
@@ -397,26 +528,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -434,26 +545,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -471,26 +562,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -508,26 +579,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -545,26 +596,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -582,26 +613,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -619,26 +630,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -656,26 +647,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -693,26 +664,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -730,26 +681,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -767,26 +698,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -804,26 +715,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -841,26 +732,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -878,26 +749,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -915,26 +766,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -952,26 +783,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -989,26 +800,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1026,26 +817,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1063,26 +834,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1100,26 +851,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1137,26 +868,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1174,26 +885,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           ReferenceType: HasComponent
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1230,6 +921,11 @@ Children:
         DataType: Boolean
         AccessLevel: Read
         Value: false
+      - Name: IpAddress
+        Type: BaseDataVariableType
+        DataType: String
+        AccessLevel: Read
+        Value: ""
   - Name: MaxNumberOfConnections
     Type: BaseDataVariableType
     DataType: UInt32
@@ -1244,30 +940,30 @@ Children:
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"d862a361102100185c75fd7832c8703a","Namespace":40}
+    Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/MainWindow"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":12,"Namespace":15}
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
   - Name: StyleSheet
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"c344ea61ac9317267448bdae38f4a8c0","Namespace":40}
+    Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/FriendlyDark"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":447,"Namespace":15}
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
   - Name: StartingUser
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"e5a72c816302fcae9ca4ed61437a75e7","Namespace":40}
+    Value: "/Objects/ROKLive_EMEA_2022_Advanced/Security/Users/John"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":14,"Namespace":1}
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
   - Name: Sessions
     Type: BaseObjectType
     Children:
@@ -1298,7 +994,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":14,"Namespace":1}
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
       - Name: ActualLocaleId
         Type: BaseVariableType
         DataType: LocaleId
@@ -1319,16 +1015,6 @@ Children:
         DataType: TimeZoneDataType
         ReferenceType: HasProperty
         AccessLevel: Read
-        Value: 
-         {
-          "TypeId": {
-           "Id": 8912
-          },
-          "Body": {
-           "offset": 0,
-           "daylightSavingInOffset": false
-          }
-         }
       - Name: Groups
         Type: BaseObjectType
       - Name: Roles
@@ -1352,6 +1038,11 @@ Children:
         DataType: Boolean
         AccessLevel: Read
         Value: false
+      - Name: IpAddress
+        Type: BaseDataVariableType
+        DataType: String
+        AccessLevel: Read
+        Value: ""
 - Name: MainWindow
   Id: g=d862a361102100185c75fd7832c8703a
   Supertype: Window
@@ -1520,7 +1211,7 @@ Children:
                 - Name: ListenEventType
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":16,"Namespace":15}
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
                 - Name: MethodsToCall
                   Type: BaseObjectType
                   Children:
@@ -1535,7 +1226,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -1555,10 +1246,11 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{NodeId:ns=40;g=60589fc2-dcb4-42d3-8b06-294b4bceb085}"
+                          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Dashboard"
                       - Name: AliasNode
                         Type: BaseDataVariableType
                         DataType: NodeId
+                        ValueRank: ScalarOrOneDimension
                         Value: {"IdType":0,"Id":0,"Namespace":-1}
                   - Name: MethodContainer2
                     Type: BaseObjectType
@@ -1571,7 +1263,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -1591,10 +1283,11 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{NodeId:ns=40;g=7810fb7c-16f8-61df-137a-0e18c3cc3d3a}"
+                          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/BottomPanelLoader/DashboardImage"
                       - Name: AliasNode
                         Type: BaseDataVariableType
                         DataType: NodeId
+                        ValueRank: ScalarOrOneDimension
                         Value: {"IdType":0,"Id":0,"Namespace":-1}
                 - Name: EventArguments
                   Type: MouseClickEvent
@@ -1744,7 +1437,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":62}
+                  Value: "/Types/VariableTypes/BaseVariableType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -1808,11 +1501,11 @@ Children:
         - Name: PageNodeId
           Type: BaseDataVariableType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"60589fc2dcb442d38b06294b4bceb085","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Dashboard"
         - Name: ImageNodeId
           Type: BaseDataVariableType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"7810fb7c16f861df137a0e18c3cc3d3a","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/BottomPanelLoader/DashboardImage"
       - Name: MenuBox2
         Type: MenuBox
         Children:
@@ -1840,7 +1533,7 @@ Children:
                 - Name: ListenEventType
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":16,"Namespace":15}
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
                 - Name: MethodsToCall
                   Type: BaseObjectType
                   Children:
@@ -1855,7 +1548,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -1875,10 +1568,11 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{NodeId:ns=40;g=76d64afb-6415-113b-6161-61e879f70920}"
+                          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Drilling"
                       - Name: AliasNode
                         Type: BaseDataVariableType
                         DataType: NodeId
+                        ValueRank: ScalarOrOneDimension
                         Value: {"IdType":0,"Id":0,"Namespace":-1}
                   - Name: MethodContainer2
                     Type: BaseObjectType
@@ -1891,7 +1585,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -1911,10 +1605,11 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{NodeId:ns=40;g=51a0f104-7cdc-87b3-ee47-155e8bc2c639}"
+                          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/BottomPanelLoader/DrillingImage"
                       - Name: AliasNode
                         Type: BaseDataVariableType
                         DataType: NodeId
+                        ValueRank: ScalarOrOneDimension
                         Value: {"IdType":0,"Id":0,"Namespace":-1}
                 - Name: EventArguments
                   Type: MouseClickEvent
@@ -2049,7 +1744,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":62}
+                  Value: "/Types/VariableTypes/BaseVariableType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -2103,7 +1798,7 @@ Children:
         - Name: PageNodeId
           Type: BaseDataVariableType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"76d64afb6415113b616161e879f70920","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Drilling"
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -2112,7 +1807,7 @@ Children:
         - Name: ImageNodeId
           Type: BaseDataVariableType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"51a0f1047cdc87b3ee47155e8bc2c639","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/BottomPanelLoader/DrillingImage"
       - Name: MenuBox3
         Type: MenuBox
         Children:
@@ -2140,7 +1835,7 @@ Children:
                 - Name: ListenEventType
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":16,"Namespace":15}
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
                 - Name: MethodsToCall
                   Type: BaseObjectType
                   Children:
@@ -2155,7 +1850,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -2175,10 +1870,11 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{NodeId:ns=40;g=2e74ff08-a43d-0d1f-d4b0-0612d24e0467}"
+                          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Slurry"
                       - Name: AliasNode
                         Type: BaseDataVariableType
                         DataType: NodeId
+                        ValueRank: ScalarOrOneDimension
                         Value: {"IdType":0,"Id":0,"Namespace":-1}
                   - Name: MethodContainer2
                     Type: BaseObjectType
@@ -2191,7 +1887,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -2211,10 +1907,11 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{NodeId:ns=40;g=8a22f5f1-cae1-5f67-9e4a-5efc1133bb77}"
+                          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/BottomPanelLoader/SlurryImage"
                       - Name: AliasNode
                         Type: BaseDataVariableType
                         DataType: NodeId
+                        ValueRank: ScalarOrOneDimension
                         Value: {"IdType":0,"Id":0,"Namespace":-1}
                 - Name: EventArguments
                   Type: MouseClickEvent
@@ -2349,7 +2046,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":62}
+                  Value: "/Types/VariableTypes/BaseVariableType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -2403,7 +2100,7 @@ Children:
         - Name: PageNodeId
           Type: BaseDataVariableType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"2e74ff08a43d0d1fd4b00612d24e0467","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Slurry"
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -2412,7 +2109,7 @@ Children:
         - Name: ImageNodeId
           Type: BaseDataVariableType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"8a22f5f1cae15f679e4a5efc1133bb77","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/BottomPanelLoader/SlurryImage"
       - Name: MenuBox4
         Type: MenuBox
         Children:
@@ -2440,7 +2137,7 @@ Children:
                 - Name: ListenEventType
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":16,"Namespace":15}
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
                 - Name: MethodsToCall
                   Type: BaseObjectType
                   Children:
@@ -2455,7 +2152,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -2475,10 +2172,11 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{NodeId:ns=40;g=654bf493-75f2-7d62-02e4-24c380d5486b}"
+                          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Coating"
                       - Name: AliasNode
                         Type: BaseDataVariableType
                         DataType: NodeId
+                        ValueRank: ScalarOrOneDimension
                         Value: {"IdType":0,"Id":0,"Namespace":-1}
                   - Name: MethodContainer2
                     Type: BaseObjectType
@@ -2491,7 +2189,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -2511,10 +2209,11 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{NodeId:ns=40;g=f58ef8d1-4d49-f371-9b84-8015e7cf5b5c}"
+                          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/BottomPanelLoader/CoatingImage"
                       - Name: AliasNode
                         Type: BaseDataVariableType
                         DataType: NodeId
+                        ValueRank: ScalarOrOneDimension
                         Value: {"IdType":0,"Id":0,"Namespace":-1}
                 - Name: EventArguments
                   Type: MouseClickEvent
@@ -2649,7 +2348,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":62}
+                  Value: "/Types/VariableTypes/BaseVariableType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -2703,7 +2402,7 @@ Children:
         - Name: PageNodeId
           Type: BaseDataVariableType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"654bf49375f27d6202e424c380d5486b","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Coating"
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -2712,7 +2411,7 @@ Children:
         - Name: ImageNodeId
           Type: BaseDataVariableType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"f58ef8d14d49f3719b848015e7cf5b5c","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/BottomPanelLoader/CoatingImage"
       - Name: MenuBox5
         Type: MenuBox
         Children:
@@ -2740,7 +2439,7 @@ Children:
                 - Name: ListenEventType
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":16,"Namespace":15}
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
                 - Name: MethodsToCall
                   Type: BaseObjectType
                   Children:
@@ -2755,7 +2454,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -2770,10 +2469,11 @@ Children:
                       - Name: NewPanel
                         Type: BaseDataVariableType
                         DataType: NodeId
-                        Value: {"IdType":2,"Id":"6bb29fb0caa76a756e2f867cfb3b230d","Namespace":40}
+                        Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Drying"
                       - Name: AliasNode
                         Type: BaseDataVariableType
                         DataType: NodeId
+                        ValueRank: ScalarOrOneDimension
                         Value: {"IdType":0,"Id":0,"Namespace":-1}
                   - Name: MethodContainer2
                     Type: BaseObjectType
@@ -2786,7 +2486,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -2806,10 +2506,11 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{NodeId:ns=40;g=eb21c1af-023d-7cc6-9c85-6f01c725b44b}"
+                          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/BottomPanelLoader/DryingImage"
                       - Name: AliasNode
                         Type: BaseDataVariableType
                         DataType: NodeId
+                        ValueRank: ScalarOrOneDimension
                         Value: {"IdType":0,"Id":0,"Namespace":-1}
                 - Name: EventArguments
                   Type: MouseClickEvent
@@ -2887,7 +2588,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{NodeId:ns=40;g=6bb29fb0-caa7-6a75-6e2f-867cfb3b230d}@BrowseName"
+                          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Drying@BrowseName"
                       - Name: Source1
                         Type: BaseDataVariableType
                         DataType: BaseDataType
@@ -2944,7 +2645,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":62}
+                  Value: "/Types/VariableTypes/BaseVariableType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -2981,7 +2682,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{NodeId:ns=40;g=6bb29fb0-caa7-6a75-6e2f-867cfb3b230d}@BrowseName"
+                        Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Drying@BrowseName"
                     - Name: Source1
                       Type: BaseDataVariableType
                       DataType: BaseDataType
@@ -2998,7 +2699,7 @@ Children:
         - Name: PageNodeId
           Type: BaseDataVariableType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"6bb29fb0caa76a756e2f867cfb3b230d","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Drying"
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -3007,7 +2708,7 @@ Children:
         - Name: ImageNodeId
           Type: BaseDataVariableType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"eb21c1af023d7cc69c856f01c725b44b","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/BottomPanelLoader/DryingImage"
       - Name: MenuBox6
         Type: MenuBox
         Children:
@@ -3035,7 +2736,7 @@ Children:
                 - Name: ListenEventType
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":16,"Namespace":15}
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
                 - Name: MethodsToCall
                   Type: BaseObjectType
                   Children:
@@ -3050,7 +2751,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -3065,10 +2766,11 @@ Children:
                       - Name: NewPanel
                         Type: BaseDataVariableType
                         DataType: NodeId
-                        Value: {"IdType":2,"Id":"b7355abcf6241608239d3107dd088c51","Namespace":40}
+                        Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Calendaring/Calendaring"
                       - Name: AliasNode
                         Type: BaseDataVariableType
                         DataType: NodeId
+                        ValueRank: ScalarOrOneDimension
                         Value: {"IdType":0,"Id":0,"Namespace":-1}
                   - Name: MethodContainer2
                     Type: BaseObjectType
@@ -3081,7 +2783,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -3101,10 +2803,11 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{NodeId:ns=40;g=ca0c63d6-578b-da97-85fa-0ff1f000d191}"
+                          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/BottomPanelLoader/CalendaringImage"
                       - Name: AliasNode
                         Type: BaseDataVariableType
                         DataType: NodeId
+                        ValueRank: ScalarOrOneDimension
                         Value: {"IdType":0,"Id":0,"Namespace":-1}
                 - Name: EventArguments
                   Type: MouseClickEvent
@@ -3182,7 +2885,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{NodeId:ns=40;g=b7355abc-f624-1608-239d-3107dd088c51}@BrowseName"
+                          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Calendaring/Calendaring@BrowseName"
                       - Name: Source1
                         Type: BaseDataVariableType
                         DataType: BaseDataType
@@ -3239,7 +2942,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":62}
+                  Value: "/Types/VariableTypes/BaseVariableType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -3276,7 +2979,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{NodeId:ns=40;g=b7355abc-f624-1608-239d-3107dd088c51}@BrowseName"
+                        Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Calendaring/Calendaring@BrowseName"
                     - Name: Source1
                       Type: BaseDataVariableType
                       DataType: BaseDataType
@@ -3293,7 +2996,7 @@ Children:
         - Name: PageNodeId
           Type: BaseDataVariableType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"b7355abcf6241608239d3107dd088c51","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Calendaring/Calendaring"
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -3302,7 +3005,7 @@ Children:
         - Name: ImageNodeId
           Type: BaseDataVariableType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"ca0c63d6578bda9785fa0ff1f000d191","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/BottomPanelLoader/CalendaringImage"
       - Name: MenuBox7
         Type: MenuBox
         Children:
@@ -3330,7 +3033,7 @@ Children:
                 - Name: ListenEventType
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":16,"Namespace":15}
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
                 - Name: MethodsToCall
                   Type: BaseObjectType
                   Children:
@@ -3345,7 +3048,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -3360,10 +3063,11 @@ Children:
                       - Name: NewPanel
                         Type: BaseDataVariableType
                         DataType: NodeId
-                        Value: {"IdType":2,"Id":"c861d8de25ee428d76de423a0bc977ca","Namespace":40}
+                        Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Slitting/Slitting"
                       - Name: AliasNode
                         Type: BaseDataVariableType
                         DataType: NodeId
+                        ValueRank: ScalarOrOneDimension
                         Value: {"IdType":0,"Id":0,"Namespace":-1}
                   - Name: MethodContainer2
                     Type: BaseObjectType
@@ -3376,7 +3080,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -3396,10 +3100,11 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{NodeId:ns=40;g=c363e2d5-8f46-526a-35f8-ae8660358835}"
+                          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/BottomPanelLoader/SlittingImage"
                       - Name: AliasNode
                         Type: BaseDataVariableType
                         DataType: NodeId
+                        ValueRank: ScalarOrOneDimension
                         Value: {"IdType":0,"Id":0,"Namespace":-1}
                 - Name: EventArguments
                   Type: MouseClickEvent
@@ -3477,7 +3182,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "{NodeId:ns=40;g=c861d8de-25ee-428d-76de-423a0bc977ca}@BrowseName"
+                          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Slitting/Slitting@BrowseName"
                       - Name: Source1
                         Type: BaseDataVariableType
                         DataType: BaseDataType
@@ -3534,7 +3239,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":62}
+                  Value: "/Types/VariableTypes/BaseVariableType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -3571,7 +3276,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{NodeId:ns=40;g=c861d8de-25ee-428d-76de-423a0bc977ca}@BrowseName"
+                        Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Slitting/Slitting@BrowseName"
                     - Name: Source1
                       Type: BaseDataVariableType
                       DataType: BaseDataType
@@ -3588,7 +3293,7 @@ Children:
         - Name: PageNodeId
           Type: BaseDataVariableType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"c861d8de25ee428d76de423a0bc977ca","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Slitting/Slitting"
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
@@ -3597,19 +3302,19 @@ Children:
         - Name: ImageNodeId
           Type: BaseDataVariableType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"c363e2d58f46526a35f8ae8660358835","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/BottomPanelLoader/SlittingImage"
     - Name: MainPanelLoader
       Type: PanelLoader
       Children:
       - Name: Panel
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"60589fc2dcb442d38b06294b4bceb085","Namespace":40}
+        Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Dashboard"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":15}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: CurrentPanel
         Type: NodePointer
         DataType: NodeId
@@ -3619,7 +3324,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":6,"Namespace":15}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
       - Name: Height
         Type: BaseVariableType
         DataType: Size
@@ -3683,7 +3388,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":62}
+                Value: "/Types/VariableTypes/BaseVariableType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -3729,7 +3434,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":62}
+                Value: "/Types/VariableTypes/BaseVariableType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -3764,7 +3469,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":62}
+                Value: "/Types/VariableTypes/BaseVariableType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -3799,7 +3504,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":62}
+                Value: "/Types/VariableTypes/BaseVariableType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -3831,7 +3536,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":15}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -3841,12 +3546,12 @@ Children:
               - Name: ObjectPointer
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"Id":29,"Namespace":11}
+                Value: "/Objects/Commands/CoreCommands"
                 Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: Method
                 Type: BaseDataVariableType
                 DataType: String
@@ -4918,7 +4623,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":62}
+                Value: "/Types/VariableTypes/BaseVariableType"
             - Name: Running
               Type: BaseDataVariableType
               DataType: Boolean
@@ -4938,7 +4643,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":62}
+                Value: "/Types/VariableTypes/BaseVariableType"
             - Name: Running
               Type: BaseDataVariableType
               DataType: Boolean
@@ -4968,7 +4673,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":62}
+                  Value: "/Types/VariableTypes/BaseVariableType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -4992,7 +4697,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":62}
+                  Value: "/Types/VariableTypes/BaseVariableType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -5124,7 +4829,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":62}
+                  Value: "/Types/VariableTypes/BaseVariableType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -5153,7 +4858,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":62}
+                  Value: "/Types/VariableTypes/BaseVariableType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -5291,7 +4996,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":62}
+                  Value: "/Types/VariableTypes/BaseVariableType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -5320,7 +5025,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":62}
+                  Value: "/Types/VariableTypes/BaseVariableType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -5458,7 +5163,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":62}
+                  Value: "/Types/VariableTypes/BaseVariableType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -5487,7 +5192,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":62}
+                  Value: "/Types/VariableTypes/BaseVariableType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -5542,12 +5247,12 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"7810fb7c16f861df137a0e18c3cc3d3a","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/BottomPanelLoader/DashboardImage"
           Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":15}
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
         - Name: CurrentPanel
           Type: NodePointer
           DataType: NodeId
@@ -5557,7 +5262,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":6,"Namespace":15}
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
         - Class: Reference
           Target: ns=15;i=478
           Direction: Forward

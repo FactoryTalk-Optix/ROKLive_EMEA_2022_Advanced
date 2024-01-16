@@ -50,7 +50,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":16,"Namespace":15}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -60,12 +60,12 @@ Children:
           - Name: ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":11}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: Method
             Type: BaseDataVariableType
             DataType: String
@@ -135,7 +135,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":16,"Namespace":15}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -145,12 +145,12 @@ Children:
           - Name: ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":11}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: Method
             Type: BaseDataVariableType
             DataType: String
@@ -222,7 +222,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":71,"Namespace":15}
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: KeyValueConverter1
         Type: ValueMapConverter
         Children:
@@ -252,7 +252,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               ModellingRule: None
-              Value: {"IdType":2,"Id":"be4fc9564cba0cbffecf662a3e5a4c78","Namespace":40}
+              Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Calendaring/AuditActions"
           - Name: Pair1
             Type: ValueMapPair
             ModellingRule: None
@@ -266,7 +266,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               ModellingRule: None
-              Value: {"IdType":2,"Id":"964b73b118d2ea6f3d3a74443d030723","Namespace":40}
+              Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Calendaring/AuditUsers"
           - Name: Pair2
             Type: ValueMapPair
             ModellingRule: None
@@ -280,7 +280,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               ModellingRule: None
-              Value: {"IdType":2,"Id":"cbbaab9a169a0f428da2c9447dbb92b8","Namespace":40}
+              Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/MainPanelLoader/Calendaring/FileHash"
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
@@ -290,7 +290,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":6,"Namespace":15}
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
     - Class: Reference
       Target: ns=15;i=478
       Direction: Forward
@@ -641,17 +641,7 @@ Children:
     Children:
     - Name: EURange
       Type: RangeType
-      DataType: EURange
-      Value: 
-       {
-        "TypeId": {
-         "Id": 884
-        },
-        "Body": {
-         "low": 0.0,
-         "high": 0.0
-        }
-       }
+      DataType: Range
       Children:
       - Name: Low
         Type: BaseVariableType
@@ -715,7 +705,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":16,"Namespace":15}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -725,12 +715,12 @@ Children:
           - Name: ns=11;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":121,"Namespace":15}
+            Value: "/Objects/Commands/UICommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: ns=11;Method
             Type: BaseDataVariableType
             DataType: String
@@ -742,11 +732,12 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               Description: {"NamespaceIndex":15,"TextId":"OpenDialogDialogDescription"}
-              Value: {"IdType":2,"Id":"bc8fc59e9f9b969690c917e8aeca2968","Namespace":40}
+              Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/DialogBox/WorkflowDataGridDialog"
             - Name: AliasNode
               Type: BaseDataVariableType
               DataType: NodeId
               Description: {"NamespaceIndex":15,"TextId":"OpenDialogAliasNodeDescription"}
+              ValueRank: ScalarOrOneDimension
               Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: ParentItem
               Type: BaseDataVariableType
@@ -838,7 +829,7 @@ Children:
     - Name: Model
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"783e61253c9a291ffd671058261ba80c","Namespace":40}
+      Value: "/Objects/ROKLive_EMEA_2022_Advanced/DataStores/EmbeddedDatabase"
       Children:
       - Name: ItemKind
         Type: PropertyType
@@ -1238,7 +1229,7 @@ Children:
     - Name: RollerItem
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"f79dcf46bd1e83d656977fa7ee1064b6","Namespace":40}
+      Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Calendaring/AuditWorkflow/Roller1"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -1344,7 +1335,7 @@ Children:
     - Name: RollerItem
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"70bf0b7c8448cf86aaef83edf7c770cf","Namespace":40}
+      Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Calendaring/AuditWorkflow/Roller2"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -1450,7 +1441,7 @@ Children:
     - Name: RollerItem
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"45027b774c31870b45c43b401d9ff2ce","Namespace":40}
+      Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Calendaring/AuditWorkflow/Roller3"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -1537,7 +1528,7 @@ Children:
     - Name: Model
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"783e61253c9a291ffd671058261ba80c","Namespace":40}
+      Value: "/Objects/ROKLive_EMEA_2022_Advanced/DataStores/EmbeddedDatabase"
       Children:
       - Name: ItemKind
         Type: PropertyType
@@ -1819,7 +1810,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":16,"Namespace":15}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -1829,12 +1820,12 @@ Children:
           - Name: ns=11;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":121,"Namespace":15}
+            Value: "/Objects/Commands/UICommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: ns=11;Method
             Type: BaseDataVariableType
             DataType: String
@@ -1846,11 +1837,12 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               Description: {"NamespaceIndex":15,"TextId":"OpenDialogDialogDescription"}
-              Value: {"IdType":2,"Id":"85b162611071ef53a5a2a4d7427e00e1","Namespace":40}
+              Value: "/Objects/ROKLive_EMEA_2022_Advanced/UI/Pages/DialogBox/LoginFormDialog"
             - Name: AliasNode
               Type: BaseDataVariableType
               DataType: NodeId
               Description: {"NamespaceIndex":15,"TextId":"OpenDialogAliasNodeDescription"}
+              ValueRank: ScalarOrOneDimension
               Value: {"IdType":0,"Id":0,"Namespace":-1}
             - Name: ParentItem
               Type: BaseDataVariableType
@@ -2218,7 +2210,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":16,"Namespace":15}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -2233,7 +2225,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -2322,7 +2314,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":16,"Namespace":15}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -2337,7 +2329,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -2587,7 +2579,7 @@ Children:
     - Name: Model
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"783e61253c9a291ffd671058261ba80c","Namespace":40}
+      Value: "/Objects/ROKLive_EMEA_2022_Advanced/DataStores/EmbeddedDatabase"
       Children:
       - Name: ItemKind
         Type: PropertyType
@@ -2954,7 +2946,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":16,"Namespace":15}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -2969,7 +2961,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath

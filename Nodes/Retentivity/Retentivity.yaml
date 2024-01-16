@@ -10,7 +10,7 @@ Children:
     - Name: Node1
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"570f0898c5b367748da0e1f9982e209b","Namespace":40}
+      Value: "/Objects/ROKLive_EMEA_2022_Advanced/Security"
       Children:
       - Name: Kind
         Type: PropertyType

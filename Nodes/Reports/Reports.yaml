@@ -18,26 +18,6 @@ Children:
     - Name: EngineeringUnits
       Type: EUInformationType
       DataType: EUInformation
-      Value: 
-       {
-        "TypeId": {
-         "Id": 887
-        },
-        "Body": {
-         "namespaceUri": "",
-         "unitId": 0,
-         "displayName": {
-          "NamespaceIndex": -1,
-          "LocaleId": "",
-          "Text": ""
-         },
-         "description": {
-          "NamespaceIndex": -1,
-          "LocaleId": "",
-          "Text": ""
-         }
-        }
-       }
       Children:
       - Name: UnitId
         Type: BaseVariableType
@@ -63,26 +43,6 @@ Children:
     - Name: EngineeringUnits
       Type: EUInformationType
       DataType: EUInformation
-      Value: 
-       {
-        "TypeId": {
-         "Id": 887
-        },
-        "Body": {
-         "namespaceUri": "",
-         "unitId": 0,
-         "displayName": {
-          "NamespaceIndex": -1,
-          "LocaleId": "",
-          "Text": ""
-         },
-         "description": {
-          "NamespaceIndex": -1,
-          "LocaleId": "",
-          "Text": ""
-         }
-        }
-       }
       Children:
       - Name: UnitId
         Type: BaseVariableType
@@ -104,12 +64,12 @@ Children:
     Id: g=34760f6621a760fe6c824bbd2446e0d9
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"b6f0d0c8ac4746b15bbe5a5d6649f84f","Namespace":40}
+    Value: "/Objects/ROKLive_EMEA_2022_Advanced/Reports/StyleSheet1"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":192,"Namespace":13}
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet/ReportStyleSheet"
   - Name: PageCount
     Type: BaseDataVariableType
     DataType: String
@@ -136,26 +96,6 @@ Children:
       - Name: EngineeringUnits
         Type: EUInformationType
         DataType: EUInformation
-        Value: 
-         {
-          "TypeId": {
-           "Id": 887
-          },
-          "Body": {
-           "namespaceUri": "",
-           "unitId": 0,
-           "displayName": {
-            "NamespaceIndex": -1,
-            "LocaleId": "",
-            "Text": ""
-           },
-           "description": {
-            "NamespaceIndex": -1,
-            "LocaleId": "",
-            "Text": ""
-           }
-          }
-         }
         Children:
         - Name: UnitId
           Type: BaseVariableType
@@ -188,26 +128,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -233,26 +153,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -286,26 +186,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -331,26 +211,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -376,26 +236,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -454,26 +294,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -499,26 +319,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -548,26 +348,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -593,26 +373,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -641,26 +401,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -705,26 +445,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -751,26 +471,6 @@ Children:
       - Name: EngineeringUnits
         Type: EUInformationType
         DataType: EUInformation
-        Value: 
-         {
-          "TypeId": {
-           "Id": 887
-          },
-          "Body": {
-           "namespaceUri": "",
-           "unitId": 0,
-           "displayName": {
-            "NamespaceIndex": -1,
-            "LocaleId": "",
-            "Text": ""
-           },
-           "description": {
-            "NamespaceIndex": -1,
-            "LocaleId": "",
-            "Text": ""
-           }
-          }
-         }
         Children:
         - Name: UnitId
           Type: BaseVariableType
@@ -811,26 +511,6 @@ Children:
             - Name: EngineeringUnits
               Type: EUInformationType
               DataType: EUInformation
-              Value: 
-               {
-                "TypeId": {
-                 "Id": 887
-                },
-                "Body": {
-                 "namespaceUri": "",
-                 "unitId": 0,
-                 "displayName": {
-                  "NamespaceIndex": -1,
-                  "LocaleId": "",
-                  "Text": ""
-                 },
-                 "description": {
-                  "NamespaceIndex": -1,
-                  "LocaleId": "",
-                  "Text": ""
-                 }
-                }
-               }
               Children:
               - Name: UnitId
                 Type: BaseVariableType
@@ -887,26 +567,6 @@ Children:
             - Name: EngineeringUnits
               Type: EUInformationType
               DataType: EUInformation
-              Value: 
-               {
-                "TypeId": {
-                 "Id": 887
-                },
-                "Body": {
-                 "namespaceUri": "",
-                 "unitId": 0,
-                 "displayName": {
-                  "NamespaceIndex": -1,
-                  "LocaleId": "",
-                  "Text": ""
-                 },
-                 "description": {
-                  "NamespaceIndex": -1,
-                  "LocaleId": "",
-                  "Text": ""
-                 }
-                }
-               }
               Children:
               - Name: UnitId
                 Type: BaseVariableType
@@ -963,26 +623,6 @@ Children:
             - Name: EngineeringUnits
               Type: EUInformationType
               DataType: EUInformation
-              Value: 
-               {
-                "TypeId": {
-                 "Id": 887
-                },
-                "Body": {
-                 "namespaceUri": "",
-                 "unitId": 0,
-                 "displayName": {
-                  "NamespaceIndex": -1,
-                  "LocaleId": "",
-                  "Text": ""
-                 },
-                 "description": {
-                  "NamespaceIndex": -1,
-                  "LocaleId": "",
-                  "Text": ""
-                 }
-                }
-               }
               Children:
               - Name: UnitId
                 Type: BaseVariableType
@@ -1039,26 +679,6 @@ Children:
             - Name: EngineeringUnits
               Type: EUInformationType
               DataType: EUInformation
-              Value: 
-               {
-                "TypeId": {
-                 "Id": 887
-                },
-                "Body": {
-                 "namespaceUri": "",
-                 "unitId": 0,
-                 "displayName": {
-                  "NamespaceIndex": -1,
-                  "LocaleId": "",
-                  "Text": ""
-                 },
-                 "description": {
-                  "NamespaceIndex": -1,
-                  "LocaleId": "",
-                  "Text": ""
-                 }
-                }
-               }
               Children:
               - Name: UnitId
                 Type: BaseVariableType
@@ -1115,26 +735,6 @@ Children:
             - Name: EngineeringUnits
               Type: EUInformationType
               DataType: EUInformation
-              Value: 
-               {
-                "TypeId": {
-                 "Id": 887
-                },
-                "Body": {
-                 "namespaceUri": "",
-                 "unitId": 0,
-                 "displayName": {
-                  "NamespaceIndex": -1,
-                  "LocaleId": "",
-                  "Text": ""
-                 },
-                 "description": {
-                  "NamespaceIndex": -1,
-                  "LocaleId": "",
-                  "Text": ""
-                 }
-                }
-               }
               Children:
               - Name: UnitId
                 Type: BaseVariableType
@@ -1191,26 +791,6 @@ Children:
             - Name: EngineeringUnits
               Type: EUInformationType
               DataType: EUInformation
-              Value: 
-               {
-                "TypeId": {
-                 "Id": 887
-                },
-                "Body": {
-                 "namespaceUri": "",
-                 "unitId": 0,
-                 "displayName": {
-                  "NamespaceIndex": -1,
-                  "LocaleId": "",
-                  "Text": ""
-                 },
-                 "description": {
-                  "NamespaceIndex": -1,
-                  "LocaleId": "",
-                  "Text": ""
-                 }
-                }
-               }
               Children:
               - Name: UnitId
                 Type: BaseVariableType
@@ -1267,26 +847,6 @@ Children:
             - Name: EngineeringUnits
               Type: EUInformationType
               DataType: EUInformation
-              Value: 
-               {
-                "TypeId": {
-                 "Id": 887
-                },
-                "Body": {
-                 "namespaceUri": "",
-                 "unitId": 0,
-                 "displayName": {
-                  "NamespaceIndex": -1,
-                  "LocaleId": "",
-                  "Text": ""
-                 },
-                 "description": {
-                  "NamespaceIndex": -1,
-                  "LocaleId": "",
-                  "Text": ""
-                 }
-                }
-               }
               Children:
               - Name: UnitId
                 Type: BaseVariableType
@@ -1345,7 +905,7 @@ Children:
       - Name: Model
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"783e61253c9a291ffd671058261ba80c","Namespace":40}
+        Value: "/Objects/ROKLive_EMEA_2022_Advanced/DataStores/EmbeddedDatabase"
         Children:
         - Name: ItemKind
           Type: PropertyType
@@ -1372,26 +932,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1426,26 +966,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1471,26 +991,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1516,26 +1016,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1575,26 +1055,6 @@ Children:
       - Name: EngineeringUnits
         Type: EUInformationType
         DataType: EUInformation
-        Value: 
-         {
-          "TypeId": {
-           "Id": 887
-          },
-          "Body": {
-           "namespaceUri": "",
-           "unitId": 0,
-           "displayName": {
-            "NamespaceIndex": -1,
-            "LocaleId": "",
-            "Text": ""
-           },
-           "description": {
-            "NamespaceIndex": -1,
-            "LocaleId": "",
-            "Text": ""
-           }
-          }
-         }
         Children:
         - Name: UnitId
           Type: BaseVariableType
@@ -1623,26 +1083,6 @@ Children:
       - Name: EngineeringUnits
         Type: EUInformationType
         DataType: EUInformation
-        Value: 
-         {
-          "TypeId": {
-           "Id": 887
-          },
-          "Body": {
-           "namespaceUri": "",
-           "unitId": 0,
-           "displayName": {
-            "NamespaceIndex": -1,
-            "LocaleId": "",
-            "Text": ""
-           },
-           "description": {
-            "NamespaceIndex": -1,
-            "LocaleId": "",
-            "Text": ""
-           }
-          }
-         }
         Children:
         - Name: UnitId
           Type: BaseVariableType
@@ -1683,26 +1123,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1732,26 +1152,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1777,26 +1177,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1822,26 +1202,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1867,26 +1227,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1943,26 +1283,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -1988,26 +1308,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -2033,26 +1333,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -2078,26 +1358,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -2165,26 +1425,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -2210,26 +1450,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -2255,26 +1475,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -2300,26 +1500,6 @@ Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -2354,26 +1534,6 @@ Children:
       - Name: EngineeringUnits
         Type: EUInformationType
         DataType: EUInformation
-        Value: 
-         {
-          "TypeId": {
-           "Id": 887
-          },
-          "Body": {
-           "namespaceUri": "",
-           "unitId": 0,
-           "displayName": {
-            "NamespaceIndex": -1,
-            "LocaleId": "",
-            "Text": ""
-           },
-           "description": {
-            "NamespaceIndex": -1,
-            "LocaleId": "",
-            "Text": ""
-           }
-          }
-         }
         Children:
         - Name: UnitId
           Type: BaseVariableType
@@ -2402,26 +1562,6 @@ Children:
     - Name: EngineeringUnits
       Type: EUInformationType
       DataType: EUInformation
-      Value: 
-       {
-        "TypeId": {
-         "Id": 887
-        },
-        "Body": {
-         "namespaceUri": "",
-         "unitId": 0,
-         "displayName": {
-          "NamespaceIndex": -1,
-          "LocaleId": "",
-          "Text": ""
-         },
-         "description": {
-          "NamespaceIndex": -1,
-          "LocaleId": "",
-          "Text": ""
-         }
-        }
-       }
       Children:
       - Name: UnitId
         Type: BaseVariableType
@@ -2449,42 +1589,6 @@ Children:
   Type: ReportStyleSheet
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
-  - Name: ButtonStyle
-    Type: ButtonStyle
-  - Name: ButtonAccentStyle
-    Type: ButtonStyle
-  - Name: DataInputStyle
-    Type: DataInputStyle
-  - Name: SwitchStyle
-    Type: SwitchStyle
-  - Name: GaugeStyle
-    Type: GaugeStyle
-  - Name: NavigationPanelStyle
-    Type: NavigationPanelStyle
-    Children:
-    - Name: IconUsesTextColor
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Value: true
-  - Name: ChartStyle
-    Type: ChartStyle
-  - Name: DataListStyle
-    Type: DataListStyle
-    Children:
-    - Name: HeaderBackgroundColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#e6e6e6"
-  - Name: ToolTipStyle
-    Type: ToolTipStyle
-  - Name: ScrollBarStyle
-    Type: ScrollBarStyle
-  - Name: AccordionStyle
-    Type: AccordionStyle
-  - Name: PieChartStyle
-    Type: PieChartStyle
-  - Name: HistogramChartStyle
-    Type: HistogramChartStyle
   - Name: BorderWidth
     Type: BaseDataVariableType
     DataType: Size
@@ -2493,26 +1597,6 @@ Children:
     - Name: EngineeringUnits
       Type: EUInformationType
       DataType: EUInformation
-      Value: 
-       {
-        "TypeId": {
-         "Id": 887
-        },
-        "Body": {
-         "namespaceUri": "",
-         "unitId": 0,
-         "displayName": {
-          "NamespaceIndex": -1,
-          "LocaleId": "",
-          "Text": ""
-         },
-         "description": {
-          "NamespaceIndex": -1,
-          "LocaleId": "",
-          "Text": ""
-         }
-        }
-       }
       Children:
       - Name: UnitId
         Type: BaseVariableType
@@ -2530,55 +1614,201 @@ Children:
         DataType: LocalizedText
         ReferenceType: HasProperty
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+  - Name: ButtonStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ButtonStyle
+    - Name: Accent
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#075982"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+    - Name: BorderedRectangular
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+    - Name: BorderedCircular
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Emergency
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8e71c"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Transparent
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+  - Name: InputBoxStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: InputBoxStyle
+  - Name: SwitchStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: SwitchStyle
+  - Name: GaugeStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: GaugeStyle
+  - Name: NavigationPanelStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: NavigationPanelStyle
+      Children:
+      - Name: IconUsesTextColor
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+  - Name: ChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ChartStyle
+  - Name: DataListStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: DataListStyle
+      Children:
+      - Name: HeaderBackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e6e6e6"
+  - Name: ToolTipStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ToolTipStyle
+  - Name: ScrollBarStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ScrollBarStyle
+  - Name: AccordionStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: AccordionStyle
+  - Name: PieChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: PieChartStyle
+  - Name: HistogramChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: HistogramChartStyle
+  - Name: LabelStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: LabelStyle
+  - Name: RadioButtonStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: RadioButtonStyle
+      Children:
+      - Name: IndicatorSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+  - Name: CheckBoxStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: CheckBoxStyle
+      Children:
+      - Name: IndicatorSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 18.0
 - Name: StyleSheet2
   Id: g=f05a116276ecaa46f6864556cb19b71d
   Type: ReportStyleSheet
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
-  - Name: ButtonStyle
-    Type: ButtonStyle
-  - Name: ButtonAccentStyle
-    Type: ButtonStyle
-  - Name: DataInputStyle
-    Type: DataInputStyle
-  - Name: SwitchStyle
-    Type: SwitchStyle
-  - Name: GaugeStyle
-    Type: GaugeStyle
-  - Name: NavigationPanelStyle
-    Type: NavigationPanelStyle
-    Children:
-    - Name: IconUsesTextColor
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Value: true
-  - Name: ChartStyle
-    Type: ChartStyle
-  - Name: DataListStyle
-    Type: DataListStyle
-    Children:
-    - Name: HeaderBackgroundColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#0fafff"
-    - Name: AlternateBackgroundColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#f0f0f0"
-    - Name: HeaderTextColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#ffffff"
-  - Name: ToolTipStyle
-    Type: ToolTipStyle
-  - Name: ScrollBarStyle
-    Type: ScrollBarStyle
-  - Name: AccordionStyle
-    Type: AccordionStyle
-  - Name: PieChartStyle
-    Type: PieChartStyle
-  - Name: HistogramChartStyle
-    Type: HistogramChartStyle
   - Name: BorderWidth
     Type: BaseDataVariableType
     DataType: Size
@@ -2587,26 +1817,6 @@ Children:
     - Name: EngineeringUnits
       Type: EUInformationType
       DataType: EUInformation
-      Value: 
-       {
-        "TypeId": {
-         "Id": 887
-        },
-        "Body": {
-         "namespaceUri": "",
-         "unitId": 0,
-         "displayName": {
-          "NamespaceIndex": -1,
-          "LocaleId": "",
-          "Text": ""
-         },
-         "description": {
-          "NamespaceIndex": -1,
-          "LocaleId": "",
-          "Text": ""
-         }
-        }
-       }
       Children:
       - Name: UnitId
         Type: BaseVariableType
@@ -2628,3 +1838,201 @@ Children:
     Type: BaseDataVariableType
     DataType: Color
     Value: "#ffffff"
+  - Name: ButtonStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ButtonStyle
+    - Name: Accent
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#075982"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+    - Name: BorderedRectangular
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+    - Name: BorderedCircular
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Emergency
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8e71c"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Transparent
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+  - Name: InputBoxStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: InputBoxStyle
+  - Name: SwitchStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: SwitchStyle
+  - Name: GaugeStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: GaugeStyle
+  - Name: NavigationPanelStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: NavigationPanelStyle
+      Children:
+      - Name: IconUsesTextColor
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+  - Name: ChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ChartStyle
+  - Name: DataListStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: DataListStyle
+      Children:
+      - Name: HeaderBackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: AlternateBackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f0f0f0"
+      - Name: HeaderTextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+  - Name: ToolTipStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ToolTipStyle
+  - Name: ScrollBarStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ScrollBarStyle
+  - Name: AccordionStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: AccordionStyle
+  - Name: PieChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: PieChartStyle
+  - Name: HistogramChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: HistogramChartStyle
+  - Name: LabelStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: LabelStyle
+  - Name: RadioButtonStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: RadioButtonStyle
+      Children:
+      - Name: IndicatorSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
+  - Name: CheckBoxStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: CheckBoxStyle
+      Children:
+      - Name: IndicatorSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 18.0

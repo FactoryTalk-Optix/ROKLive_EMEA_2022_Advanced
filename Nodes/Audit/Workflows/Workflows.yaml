@@ -30,7 +30,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":71,"Namespace":15}
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: ConditionalConverter1
         Type: ConditionalConverter
         Children:
@@ -49,7 +49,7 @@ Children:
           DataType: NodeId
           ReferenceType: HasParameter
           ModellingRule: Optional
-          Value: {"IdType":2,"Id":"39b0e8c331c51fe013e676addd5107d9","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/Audit/Workflows/WorkflowInProgressPanel"
         - Name: FalseValue
           Type: BaseDataVariableType
           DataType: NodeId
@@ -86,7 +86,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{NodeId:ns=40;g=ac5a2909-6aa9-003d-df03-f24650d761ad}"
+                    Value: "/Objects/ROKLive_EMEA_2022_Advanced/Audit/Workflows/ConfirmWorkflowPanel"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
@@ -108,7 +108,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{NodeId:ns=40;g=036c5238-2857-615b-f0dd-b2d08d4d0791}"
+                    Value: "/Objects/ROKLive_EMEA_2022_Advanced/Audit/Workflows/SignWorkflowPanel"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
@@ -130,7 +130,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{NodeId:ns=40;g=50d189be-e578-0c26-073d-abe700cd356e}"
+                    Value: "/Objects/ROKLive_EMEA_2022_Advanced/Audit/Workflows/DoubleSignWorkflowPanel"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
@@ -146,7 +146,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":6,"Namespace":15}
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
     - Class: Reference
       Target: ns=15;i=478
       Direction: Forward
@@ -163,6 +163,7 @@ Children:
     - Name: PanelAliasNode
       Type: BaseDataVariableType
       DataType: NodeId
+      ValueRank: ScalarOrOneDimension
       Value: {"IdType":0,"Id":0,"Namespace":-1}
       Children:
       - Name: DynamicLink
@@ -187,7 +188,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":30,"Namespace":23}
+      Value: "/Types/ObjectTypes/BaseObjectType/SigningController"
   - Name: AuditDialog
     Type: Alias
     DataType: NodeId
@@ -210,12 +211,12 @@ Children:
   - Name: Users
     Type: Alias
     DataType: NodeId
-    Value: {"IdType":2,"Id":"e975124390d857a1b259a6d7cf4bfba4","Namespace":40}
+    Value: "/Objects/ROKLive_EMEA_2022_Advanced/Security/Users"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"e975124390d857a1b259a6d7cf4bfba4","Namespace":40}
+      Value: "/Objects/ROKLive_EMEA_2022_Advanced/Security/Users"
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment
@@ -628,7 +629,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":15}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -638,12 +639,12 @@ Children:
               - Name: ns=8;ObjectPointer
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"IdType":2,"Id":"80558ed4bc32dedaf254ed3d590d1d70","Namespace":40}
+                Value: "/Objects/ROKLive_EMEA_2022_Advanced/Audit/Workflows/SigningController"
                 Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -669,7 +670,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -773,7 +774,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":15}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -783,12 +784,12 @@ Children:
               - Name: ns=8;ObjectPointer
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"IdType":2,"Id":"80558ed4bc32dedaf254ed3d590d1d70","Namespace":40}
+                Value: "/Objects/ROKLive_EMEA_2022_Advanced/Audit/Workflows/SigningController"
                 Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -840,7 +841,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -1260,7 +1261,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":14,"Namespace":1}
+            Value: "/Types/ObjectTypes/BaseObjectType/UserType"
         - Name: UISelectedItem
           Type: BaseDataVariableType
           DataType: NodeId
@@ -1286,7 +1287,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":14,"Namespace":1}
+            Value: "/Types/ObjectTypes/BaseObjectType/UserType"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -1605,7 +1606,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":15}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -1615,12 +1616,12 @@ Children:
               - Name: ns=8;ObjectPointer
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"IdType":2,"Id":"80558ed4bc32dedaf254ed3d590d1d70","Namespace":40}
+                Value: "/Objects/ROKLive_EMEA_2022_Advanced/Audit/Workflows/SigningController"
                 Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -1646,7 +1647,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -1735,7 +1736,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":15}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -1745,12 +1746,12 @@ Children:
               - Name: ns=8;ObjectPointer
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"IdType":2,"Id":"80558ed4bc32dedaf254ed3d590d1d70","Namespace":40}
+                Value: "/Objects/ROKLive_EMEA_2022_Advanced/Audit/Workflows/SigningController"
                 Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -1832,7 +1833,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -2413,7 +2414,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":14,"Namespace":1}
+                Value: "/Types/ObjectTypes/BaseObjectType/UserType"
             - Name: UISelectedItem
               Type: BaseDataVariableType
               DataType: NodeId
@@ -2434,7 +2435,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":14,"Namespace":1}
+                Value: "/Types/ObjectTypes/BaseObjectType/UserType"
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2689,7 +2690,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":14,"Namespace":1}
+                Value: "/Types/ObjectTypes/BaseObjectType/UserType"
             - Name: UISelectedItem
               Type: BaseDataVariableType
               DataType: NodeId
@@ -2710,7 +2711,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":14,"Namespace":1}
+                Value: "/Types/ObjectTypes/BaseObjectType/UserType"
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -2903,7 +2904,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":15}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -2913,12 +2914,12 @@ Children:
               - Name: ns=8;ObjectPointer
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"IdType":2,"Id":"80558ed4bc32dedaf254ed3d590d1d70","Namespace":40}
+                Value: "/Objects/ROKLive_EMEA_2022_Advanced/Audit/Workflows/SigningController"
                 Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -2944,7 +2945,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -3048,7 +3049,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":15}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -3058,12 +3059,12 @@ Children:
               - Name: ns=8;ObjectPointer
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"IdType":2,"Id":"80558ed4bc32dedaf254ed3d590d1d70","Namespace":40}
+                Value: "/Objects/ROKLive_EMEA_2022_Advanced/Audit/Workflows/SigningController"
                 Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -3190,7 +3191,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -3645,7 +3646,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -3660,7 +3661,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -3936,7 +3937,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":15}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -3951,7 +3952,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -4079,12 +4080,12 @@ Children:
       - Name: User
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"3232cf0f5e60bc827cd0058511824805","Namespace":40}
+        Value: "/Objects/ROKLive_EMEA_2022_Advanced/Security/Users/Tracy"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":14,"Namespace":1}
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
   - Name: GroupsAllowedToSign
     Type: BaseObjectType
   - Name: UsersAllowedToDoubleSign
@@ -4096,12 +4097,12 @@ Children:
       - Name: User
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"6204f57fd3204cc9a692b7ca1586ba21","Namespace":40}
+        Value: "/Objects/ROKLive_EMEA_2022_Advanced/Security/Users/Davide"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":14,"Namespace":1}
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
   - Name: GroupsAllowedToDoubleSign
     Type: BaseObjectType
   - Class: Reference
@@ -4122,7 +4123,7 @@ Children:
     - Name: ListenEventType
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":18,"Namespace":23}
+      Value: "/Types/EventTypes/BaseEventType/WorkflowStartedEvent"
     - Name: MethodsToCall
       Type: BaseObjectType
       Children:
@@ -4137,7 +4138,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":58}
+            Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
@@ -4158,12 +4159,13 @@ Children:
             Type: BaseDataVariableType
             DataType: NodeId
             Description: {"NamespaceIndex":26,"TextId":"OpenDialogDialogDescription"}
-            Value: {"IdType":2,"Id":"b5417091b012ab034e7c480a42eeeb2b","Namespace":40}
+            Value: "/Objects/ROKLive_EMEA_2022_Advanced/Audit/Workflows/AuditDialogBox"
           - Name: AliasNode
             Type: BaseDataVariableType
             DataType: NodeId
             Description: {"NamespaceIndex":26,"TextId":"OpenDialogAliasNodeDescription"}
-            Value: {"IdType":2,"Id":"80558ed4bc32dedaf254ed3d590d1d70","Namespace":40}
+            ValueRank: ScalarOrOneDimension
+            Value: "/Objects/ROKLive_EMEA_2022_Advanced/Audit/Workflows/SigningController"
           - Name: Item
             Type: BaseDataVariableType
             DataType: NodeId

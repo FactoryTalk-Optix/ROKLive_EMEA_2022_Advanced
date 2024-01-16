@@ -95,26 +95,6 @@ Children:
         Type: EUInformationType
         DataType: EUInformation
         DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
-        Value: 
-         {
-          "TypeId": {
-           "Id": 887
-          },
-          "Body": {
-           "namespaceUri": "",
-           "unitId": 0,
-           "displayName": {
-            "NamespaceIndex": -1,
-            "LocaleId": "",
-            "Text": ""
-           },
-           "description": {
-            "NamespaceIndex": -1,
-            "LocaleId": "",
-            "Text": ""
-           }
-          }
-         }
         Children:
         - Name: UnitId
           Type: BaseVariableType
@@ -137,7 +117,7 @@ Children:
       - Name: EURange
         Id: ns=5;i=6003
         Type: RangeType
-        DataType: EURange
+        DataType: Range
         DisplayName: {"LocaleId":"","Text":"EURange"}
         Value: 
          {
@@ -145,8 +125,8 @@ Children:
            "Id": 884
           },
           "Body": {
-           "low": 0.0,
-           "high": 100.0
+           "Low": 0.0,
+           "High": 100.0
           }
          }
         Children:
@@ -165,19 +145,9 @@ Children:
       - Name: InstrumentRange
         Id: ns=5;i=6004
         Type: RangeType
-        DataType: EURange
+        DataType: Range
         DisplayName: {"LocaleId":"","Text":"InstrumentRange"}
         ModellingRule: Optional
-        Value: 
-         {
-          "TypeId": {
-           "Id": 884
-          },
-          "Body": {
-           "low": 0.0,
-           "high": 0.0
-          }
-         }
         Children:
         - Name: Low
           Type: BaseVariableType
@@ -238,26 +208,6 @@ Children:
         Type: EUInformationType
         DataType: EUInformation
         DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
-        Value: 
-         {
-          "TypeId": {
-           "Id": 887
-          },
-          "Body": {
-           "namespaceUri": "",
-           "unitId": 0,
-           "displayName": {
-            "NamespaceIndex": -1,
-            "LocaleId": "",
-            "Text": ""
-           },
-           "description": {
-            "NamespaceIndex": -1,
-            "LocaleId": "",
-            "Text": ""
-           }
-          }
-         }
         Children:
         - Name: UnitId
           Type: BaseVariableType
@@ -280,18 +230,8 @@ Children:
       - Name: EURange
         Id: ns=5;i=6009
         Type: RangeType
-        DataType: EURange
+        DataType: Range
         DisplayName: {"LocaleId":"","Text":"EURange"}
-        Value: 
-         {
-          "TypeId": {
-           "Id": 884
-          },
-          "Body": {
-           "low": 0.0,
-           "high": 0.0
-          }
-         }
         Children:
         - Name: Low
           Type: BaseVariableType
@@ -308,19 +248,9 @@ Children:
       - Name: InstrumentRange
         Id: ns=5;i=6010
         Type: RangeType
-        DataType: EURange
+        DataType: Range
         DisplayName: {"LocaleId":"","Text":"InstrumentRange"}
         ModellingRule: Optional
-        Value: 
-         {
-          "TypeId": {
-           "Id": 884
-          },
-          "Body": {
-           "low": 0.0,
-           "high": 0.0
-          }
-         }
         Children:
         - Name: Low
           Type: BaseVariableType
@@ -385,26 +315,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -427,18 +337,8 @@ Children:
         - Name: EURange
           Id: ns=5;i=6022
           Type: RangeType
-          DataType: EURange
+          DataType: Range
           DisplayName: {"LocaleId":"","Text":"EURange"}
-          Value: 
-           {
-            "TypeId": {
-             "Id": 884
-            },
-            "Body": {
-             "low": 0.0,
-             "high": 0.0
-            }
-           }
           Children:
           - Name: Low
             Type: BaseVariableType
@@ -455,19 +355,9 @@ Children:
         - Name: InstrumentRange
           Id: ns=5;i=6023
           Type: RangeType
-          DataType: EURange
+          DataType: Range
           DisplayName: {"LocaleId":"","Text":"InstrumentRange"}
           ModellingRule: Optional
-          Value: 
-           {
-            "TypeId": {
-             "Id": 884
-            },
-            "Body": {
-             "low": 0.0,
-             "high": 0.0
-            }
-           }
           Children:
           - Name: Low
             Type: BaseVariableType
@@ -539,26 +429,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
-          Value: 
-           {
-            "TypeId": {
-             "Id": 887
-            },
-            "Body": {
-             "namespaceUri": "",
-             "unitId": 0,
-             "displayName": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             },
-             "description": {
-              "NamespaceIndex": -1,
-              "LocaleId": "",
-              "Text": ""
-             }
-            }
-           }
           Children:
           - Name: UnitId
             Type: BaseVariableType
@@ -581,7 +451,7 @@ Children:
         - Name: EURange
           Id: ns=5;i=6016
           Type: RangeType
-          DataType: EURange
+          DataType: Range
           DisplayName: {"LocaleId":"","Text":"EURange"}
           Value: 
            {
@@ -589,8 +459,8 @@ Children:
              "Id": 884
             },
             "Body": {
-             "low": 0.0,
-             "high": 100.0
+             "Low": 0.0,
+             "High": 100.0
             }
            }
           Children:
@@ -609,19 +479,9 @@ Children:
         - Name: InstrumentRange
           Id: ns=5;i=6017
           Type: RangeType
-          DataType: EURange
+          DataType: Range
           DisplayName: {"LocaleId":"","Text":"InstrumentRange"}
           ModellingRule: Optional
-          Value: 
-           {
-            "TypeId": {
-             "Id": 884
-            },
-            "Body": {
-             "low": 0.0,
-             "high": 0.0
-            }
-           }
           Children:
           - Name: Low
             Type: BaseVariableType

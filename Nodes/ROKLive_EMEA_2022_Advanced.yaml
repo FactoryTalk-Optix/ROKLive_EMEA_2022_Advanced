@@ -5,19 +5,19 @@ Children:
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: Byte
     Value: 0
   - Name: MinimumPasswordAge
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: Byte
     Value: 3
 - File: UI/UI.yaml
@@ -41,35 +41,31 @@ Children:
   - Name: DefaultUserFolder
     Type: NodePointer
     DataType: NodeId
-    ReferenceType: HasProperty
-    Value: {"IdType":2,"Id":"e975124390d857a1b259a6d7cf4bfba4","Namespace":40}
+    Value: "/Objects/ROKLive_EMEA_2022_Advanced/Security/Users"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":61}
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
 - Name: AlarmConfiguration
   Type: PropertyGroup
   Children:
   - Name: BranchingEnabled
     Type: BaseDataVariableType
     DataType: Boolean
-    ReferenceType: HasProperty
     Value: false
 - Name: Localization
   Type: PropertyGroup
   Children:
   - Name: Locales
     Type: BaseDataVariableType
-    DataType: String
-    ReferenceType: HasProperty
+    DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
   - Name: LocaleFallbackList
     Type: BaseDataVariableType
-    DataType: String
-    ReferenceType: HasProperty
+    DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]

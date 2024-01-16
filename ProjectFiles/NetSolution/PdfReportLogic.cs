@@ -119,8 +119,8 @@ public class PdfReportLogic : BaseNetLogic
                 myNewButton.TopMargin = 375;
                 Owner.Get<Panel>("Objects").Add(myNewButton);
                 // Set path to PDF report
-                var myPdfViewer = Project.Current.Get<PdfViewer>("UI/Pages/DialogBox/ShowReport/PDFViewer");
-                myPdfViewer.Path = pdfPathStr;
+                //var myPdfViewer = Project.Current.Get<PdfViewer>("UI/Pages/DialogBox/ShowReport/PDFViewer");
+                //myPdfViewer.Path = pdfPathStr;
             }
         } else {
             // Delete button if PDF does not exist

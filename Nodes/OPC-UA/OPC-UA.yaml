@@ -20,7 +20,7 @@ Children:
         - Name: Node1
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"549d072e3a8fa8e1c92ccbc817ad3227","Namespace":40}
+          Value: "/Objects/ROKLive_EMEA_2022_Advanced/Model/Slitting/OPC_Items"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -36,12 +36,12 @@ Children:
         - Name: User1
           Type: NodePointer
           DataType: NodeId
-          Value: {"Id":46,"Namespace":1}
+          Value: "/Objects/Users/Anonymous"
           Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":14,"Namespace":1}
+            Value: "/Types/ObjectTypes/BaseObjectType/UserType"
           - Name: NodeClass
             Type: PropertyType
             DataType: NodePointerNodeClass
