@@ -58,12 +58,4 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
-  - Name: ServerCertificateFile
-    Type: PropertyType
-    DataType: ResourceUri
-    Value: "ns=40;%PROJECTDIR%/Certificates/OPC-UA/optixhmi_cert.der"
-  - Name: ServerPrivateKeyFile
-    Type: PropertyType
-    DataType: ResourceUri
-    Value: "ns=40;%PROJECTDIR%/Certificates/OPC-UA/optixhmi_cert.pem"
 - File: OPCUAClient/OPCUAClient.yaml
