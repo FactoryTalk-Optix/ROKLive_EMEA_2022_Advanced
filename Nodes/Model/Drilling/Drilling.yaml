@@ -11,39 +11,30 @@ Children:
     DataType: Range
     Children:
     - Name: Low
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Double
-      ReferenceType: HasProperty
-      Value: 0.0
     - Name: High
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Double
-      ReferenceType: HasProperty
       Value: 800.0
     - Name: Constrain
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Boolean
-      ReferenceType: HasProperty
       Value: true
   - Name: EngineeringUnits
     Type: EUInformationType
     DataType: EUInformation
     Children:
     - Name: UnitId
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Int32
-      ReferenceType: HasProperty
       Value: 4408652
     - Name: DisplayName
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: LocalizedText
-      ReferenceType: HasProperty
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Description
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: LocalizedText
-      ReferenceType: HasProperty
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
 - Name: 21AB6
   Type: BaseDataVariableType
   DataType: Boolean

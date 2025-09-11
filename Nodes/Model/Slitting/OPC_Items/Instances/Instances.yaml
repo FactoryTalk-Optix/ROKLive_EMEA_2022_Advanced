@@ -10,7 +10,6 @@ Children:
     Id: g=a213b337044b35156a20969e07764093
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: SetSpeed
     Id: g=3e247b869829953908223a173cec7254
     Type: BaseDataVariableType
@@ -20,7 +19,6 @@ Children:
     Id: g=faeb0e7b5e1a6c72165bdbc139fd0abf
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Class: Reference
     Target: g=3f021d6ac96601a129b62bd85da69994
     Direction: Forward
@@ -35,7 +33,6 @@ Children:
     Id: g=26c4c6f15eda3d94c09294588d197594
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: SetSpeed
     Id: g=6aad3ea7ccbc704f45b53b9a420fdd00
     Type: BaseDataVariableType
@@ -45,7 +42,6 @@ Children:
     Id: g=2d111d2db2f47a0ef38da5de89002348
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Class: Reference
     Target: g=3f021d6ac96601a129b62bd85da69994
     Direction: Forward
@@ -60,7 +56,6 @@ Children:
     Id: g=408306f2839ec8b9fd8f066a0a6b8325
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: SetSpeed
     Id: g=dda806f4b0057e6d3c21fe259344455d
     Type: BaseDataVariableType
@@ -70,7 +65,6 @@ Children:
     Id: g=918b9e2bf6e1dfe7eda8bc0261f560d1
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Class: Reference
     Target: g=3f021d6ac96601a129b62bd85da69994
     Direction: Forward

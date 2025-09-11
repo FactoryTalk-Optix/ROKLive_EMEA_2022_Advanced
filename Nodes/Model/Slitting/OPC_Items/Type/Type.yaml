@@ -10,7 +10,6 @@ Children:
     Id: g=f388f9cd5834377cb7cd95b12f9ddc22
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: SetSpeed
     Id: g=640cbbd779bb8ec1107137867f2ec1a4
     Type: BaseDataVariableType
@@ -20,7 +19,6 @@ Children:
     Id: g=f9bf08e200ea9990ed7d842d593c820c
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Class: Method
     Name: StartMotor
     Id: g=3f021d6ac96601a129b62bd85da69994

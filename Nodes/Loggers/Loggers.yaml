@@ -21,7 +21,6 @@ Children:
     - Name: NodeClass
       Type: PropertyType
       DataType: NodePointerNodeClass
-      Value: 0
   - Name: EventFieldPaths
     Type: BaseObjectType
     Children:
@@ -74,7 +73,6 @@ Children:
       - Name: MonitorSubtree
         Type: PropertyType
         DataType: Boolean
-        Value: false
       - Name: EventType
         Type: NodePointer
         DataType: NodeId
@@ -95,43 +93,33 @@ Children:
     - Name: ActiveState_Id
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: AckedState_Id
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: ConfirmedState_Id
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: ConditionName
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: EnabledState_Id
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: SourceName
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: Time
       Type: BaseDataVariableType
       DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
     - Name: Message
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Severity
       Type: BaseDataVariableType
       DataType: UInt16
-      Value: 0
     - Name: EventTypeId
       Type: BaseDataVariableType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: LocalTime
       Type: BaseDataVariableType
       DataType: TimeZoneDataType
@@ -141,7 +129,6 @@ Children:
     - Name: ActiveState_Id
       Type: EventFieldToLog
       DataType: Boolean
-      Value: false
       Children:
       - Name: DataBind
         Type: DynamicLink
@@ -155,7 +142,6 @@ Children:
     - Name: AckedState_Id
       Type: EventFieldToLog
       DataType: Boolean
-      Value: false
       Children:
       - Name: DataBind
         Type: DynamicLink
@@ -169,7 +155,6 @@ Children:
     - Name: ConfirmedState_Id
       Type: EventFieldToLog
       DataType: Boolean
-      Value: false
       Children:
       - Name: DataBind
         Type: DynamicLink
@@ -183,7 +168,6 @@ Children:
     - Name: ConditionName
       Type: EventFieldToLog
       DataType: String
-      Value: ""
       Children:
       - Name: DataBind
         Type: DynamicLink
@@ -197,7 +181,6 @@ Children:
     - Name: EnabledState_Id
       Type: EventFieldToLog
       DataType: Boolean
-      Value: false
       Children:
       - Name: DataBind
         Type: DynamicLink
@@ -211,7 +194,6 @@ Children:
     - Name: SourceName
       Type: EventFieldToLog
       DataType: String
-      Value: ""
       Children:
       - Name: DataBind
         Type: DynamicLink
@@ -225,7 +207,6 @@ Children:
     - Name: Time
       Type: EventFieldToLog
       DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: DataBind
         Type: DynamicLink
@@ -239,7 +220,6 @@ Children:
     - Name: Message
       Type: EventFieldToLog
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DataBind
         Type: DynamicLink
@@ -253,7 +233,6 @@ Children:
     - Name: Severity
       Type: EventFieldToLog
       DataType: UInt16
-      Value: 0
       Children:
       - Name: DataBind
         Type: DynamicLink
@@ -267,7 +246,6 @@ Children:
     - Name: LocalTime
       Type: EventFieldToLog
       DataType: DateTime
-      Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: ExpressionEvaluator1
         Type: ExpressionEvaluator
@@ -410,7 +388,6 @@ Children:
     - Name: EventTypeId
       Type: BaseDataVariableType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: NewValue
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -422,42 +399,33 @@ Children:
     - Name: SourceName
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: ActionTimeStamp
       Type: BaseDataVariableType
       DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
     - Name: ClientUserId
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: ClientUserNote
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: SignResult
       Type: BaseDataVariableType
       DataType: SignResult
-      Value: 0
     - Name: SecondClientUserId
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: SecondClientUserNote
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: WorkflowType
       Type: BaseDataVariableType
       DataType: WorkflowType
-      Value: 0
   - Name: EventFieldsToLog
     Type: BaseObjectType
     Children:
     - Name: ActionTimeStamp
       Type: EventFieldToLog
       DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -467,7 +435,6 @@ Children:
       Type: EventFieldToLog
       DataType: String
       ValueRank: Any
-      Value: ""
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -477,7 +444,6 @@ Children:
       Type: EventFieldToLog
       DataType: String
       ValueRank: Any
-      Value: ""
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -487,7 +453,6 @@ Children:
       Type: EventFieldToLog
       DataType: String
       ValueRank: Any
-      Value: ""
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -496,7 +461,6 @@ Children:
     - Name: SourceName
       Type: EventFieldToLog
       DataType: String
-      Value: ""
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -505,7 +469,6 @@ Children:
     - Name: ClientUserId
       Type: EventFieldToLog
       DataType: String
-      Value: ""
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -514,7 +477,6 @@ Children:
     - Name: ClientUserNote
       Type: EventFieldToLog
       DataType: String
-      Value: ""
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -523,7 +485,6 @@ Children:
     - Name: SecondClientUserId
       Type: EventFieldToLog
       DataType: String
-      Value: ""
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -533,7 +494,6 @@ Children:
       Type: EventFieldToLog
       DataType: String
       ValueRank: Any
-      Value: ""
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -556,7 +516,7 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../EventArguments/SignResult"
-        - Name: Pairs
+        - Name: ns=11;Pairs
           Type: BaseObjectType
           Children:
           - Name: Pair
@@ -565,7 +525,6 @@ Children:
             - Name: Key
               Type: BaseDataVariableType
               DataType: SignResult
-              Value: 0
             - Name: Value
               Type: BaseDataVariableType
               DataType: String
@@ -642,7 +601,7 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../EventArguments/WorkflowType"
-        - Name: Pairs
+        - Name: ns=11;Pairs
           Type: BaseObjectType
           Children:
           - Name: Pair
@@ -651,7 +610,6 @@ Children:
             - Name: Key
               Type: BaseDataVariableType
               DataType: WorkflowType
-              Value: 0
             - Name: Value
               Type: BaseDataVariableType
               DataType: String
@@ -735,30 +693,24 @@ Children:
     - Name: EventTypeId
       Type: BaseDataVariableType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: Time
       Type: BaseDataVariableType
       DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
     - Name: Username
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: EventType
       Type: BaseDataVariableType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: Status
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
   - Name: EventFieldsToLog
     Type: BaseObjectType
     Children:
     - Name: Time
       Type: EventFieldToLog
       DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -767,7 +719,6 @@ Children:
     - Name: EventType
       Type: EventFieldToLog
       DataType: String
-      Value: ""
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -776,7 +727,6 @@ Children:
     - Name: Username
       Type: EventFieldToLog
       DataType: String
-      Value: ""
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -785,7 +735,6 @@ Children:
     - Name: Status
       Type: EventFieldToLog
       DataType: Boolean
-      Value: false
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -849,30 +798,24 @@ Children:
     - Name: EventTypeId
       Type: BaseDataVariableType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: Message
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: ModuleName
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: Time
       Type: BaseDataVariableType
       DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
     - Name: Level
       Type: BaseDataVariableType
       DataType: LogLevel
-      Value: 0
   - Name: EventFieldsToLog
     Type: BaseObjectType
     Children:
     - Name: Time
       Type: EventFieldToLog
       DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -881,7 +824,6 @@ Children:
     - Name: ModuleName
       Type: EventFieldToLog
       DataType: String
-      Value: ""
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -890,7 +832,6 @@ Children:
     - Name: Message
       Type: EventFieldToLog
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -899,7 +840,6 @@ Children:
     - Name: Level
       Type: EventFieldToLog
       DataType: LogLevel
-      Value: 0
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -936,12 +876,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -963,12 +901,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -990,12 +926,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -1017,12 +951,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -1044,12 +976,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -1071,12 +1001,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -1096,4 +1024,8 @@ Children:
   - Name: SamplingPeriod
     Type: PropertyType
     DataType: Duration
-    Value: "0:00:00:2.0000000"
+    Value: "0:00:00:02.0000000"
+  - Name: PollingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:02.0000000"

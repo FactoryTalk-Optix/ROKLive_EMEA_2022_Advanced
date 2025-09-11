@@ -5,7 +5,6 @@ Children:
 - Name: FilePath
   Type: BaseDataVariableType
   DataType: AbsoluteResourceUri
-  Value: ""
 - Name: Mode
   Type: BaseDataVariableType
   DataType: FetchProviderModes
@@ -20,4 +19,3 @@ Children:
   DataType: NodeId
   ValueRank: OneDimension
   ArrayDimensions: [0]
-  Value: []

@@ -7,7 +7,6 @@ Children:
   - Name: InputValue
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -44,17 +43,39 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Drilling motor - Overheating"}
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
 - Name: CANR3
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -87,17 +108,39 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 3
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
 - Name: LV156
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -126,17 +169,39 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"it-IT","Text":"Low oxygen level"}
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
 - Name: LV789
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -165,3 +230,27 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"it-IT","Text":"Low oxygen level"}
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward

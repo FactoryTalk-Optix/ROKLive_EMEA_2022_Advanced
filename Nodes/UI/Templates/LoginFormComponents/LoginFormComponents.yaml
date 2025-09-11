@@ -9,7 +9,6 @@ Children:
   - Name: Panel
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -22,7 +21,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ReferenceType: HasSource
-        Value: false
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -44,7 +42,6 @@ Children:
     Type: NodePointer
     DataType: NodeId
     AccessLevel: Read
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -76,7 +73,6 @@ Children:
     Type: BaseDataVariableType
     DataType: NodeId
     ValueRank: ScalarOrOneDimension
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: DynamicLink
       Type: DynamicLink

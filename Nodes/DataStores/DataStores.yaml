@@ -29,51 +29,39 @@ Children:
         - Name: Event
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: NewValue
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: OldValue
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: SourceName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: ActionTimeStamp
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: ClientUserId
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: ClientUserNote
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: SignResult
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: SecondClientUserId
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: WorkflowType
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: SecondClientUserNote
           Type: StoreColumn
           DataType: String
-          Value: ""
       - Name: RecordLimit
         Type: BaseDataVariableType
         DataType: UInt32
-        Value: 0
     - Name: AlarmsEventLogger
       Type: SQLiteStoreTable
       Children:
@@ -95,47 +83,36 @@ Children:
         - Name: ActiveState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: AckedState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: ConfirmedState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: ConditionName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: EnabledState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: SourceName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Time
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: 'Message_en-US'
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: 'Message_it-IT'
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Severity
           Type: StoreColumn
           DataType: UInt16
-          Value: 0
         - Name: LocalTime
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
       - Name: RecordLimit
         Type: BaseDataVariableType
         DataType: UInt32
@@ -161,19 +138,15 @@ Children:
         - Name: Time
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: Username
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: EventType
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Status
           Type: StoreColumn
           DataType: Boolean
-          Value: false
       - Name: RecordLimit
         Type: BaseDataVariableType
         DataType: UInt32
@@ -199,19 +172,15 @@ Children:
         - Name: Time
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: ModuleName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: 'Message_en-US'
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Level
           Type: StoreColumn
           DataType: LogLevel
-          Value: 0
       - Name: RecordLimit
         Type: BaseDataVariableType
         DataType: UInt32
@@ -237,15 +206,12 @@ Children:
         - Name: PartNumber
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Description
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Availability
           Type: StoreColumn
           DataType: Int32
-          Value: 0
     - Name: CoatingProcessParameters
       Type: SQLiteStoreTable
       Children:
@@ -267,35 +233,27 @@ Children:
         - Name: Timestamp
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: LocalTimestamp
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: TemperatureZone1
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: TemperatureZone2
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: TemperatureZone3
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: TemperatureZone4
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: WinderSpeed
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: UnwinderSpeed
           Type: StoreColumn
           DataType: Int32
-          Value: 0
       - Name: RecordLimit
         Type: BaseDataVariableType
         DataType: UInt32
@@ -321,15 +279,12 @@ Children:
         - Name: Timestamp
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: AlarmName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: AlarmCount
           Type: StoreColumn
           DataType: Int32
-          Value: 0
       - Name: RecordLimit
         Type: BaseDataVariableType
         DataType: UInt32
@@ -344,19 +299,16 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus

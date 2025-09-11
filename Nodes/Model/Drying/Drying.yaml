@@ -9,24 +9,19 @@ Children:
   Id: g=33540f2ee2a91225dea765afa0fed248
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: ns=0;EURange
     Type: RangeType
     DataType: Range
     Children:
     - Name: Low
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Double
-      ReferenceType: HasProperty
-      Value: 0.0
     - Name: High
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Double
-      ReferenceType: HasProperty
       Value: 5.0
     - Name: Constrain
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Boolean
-      ReferenceType: HasProperty
       Value: true

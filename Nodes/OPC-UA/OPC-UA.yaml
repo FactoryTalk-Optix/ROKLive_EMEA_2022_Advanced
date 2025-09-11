@@ -25,7 +25,6 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: NodeClass
             Type: PropertyType
             DataType: NodePointerNodeClass
@@ -45,15 +44,12 @@ Children:
           - Name: NodeClass
             Type: PropertyType
             DataType: NodePointerNodeClass
-            Value: 0
   - Name: MinimumMessageSecurityMode
     Type: PropertyType
     DataType: ns=9;MessageSecurityModeEnum
-    Value: 0
   - Name: MinimumSecurityPolicy
     Type: PropertyType
     DataType: ns=9;SecurityPolicyEnum
-    Value: 0
   - Name: AllowMultipleConnection
     Type: BaseDataVariableType
     DataType: Boolean

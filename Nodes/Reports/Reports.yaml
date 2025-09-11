@@ -20,21 +20,16 @@ Children:
       DataType: EUInformation
       Children:
       - Name: UnitId
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: PageHeight
     Type: BaseDataVariableType
     DataType: Size
@@ -45,21 +40,16 @@ Children:
       DataType: EUInformation
       Children:
       - Name: UnitId
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: StyleSheet
     Id: g=34760f6621a760fe6c824bbd2446e0d9
     Type: NodePointer
@@ -84,7 +74,6 @@ Children:
     Type: BaseDataVariableType
     DataType: DateTime
     AccessLevel: Read
-    Value: "1601-01-01T00:00:00.0000000"
   - Name: Header
     Type: Panel
     Children:
@@ -98,21 +87,16 @@ Children:
         DataType: EUInformation
         Children:
         - Name: UnitId
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Description
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: FTOptixLogo
       Type: ReportImage
       Children:
@@ -130,21 +114,16 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Height
         Type: BaseDataVariableType
         DataType: Size
@@ -155,25 +134,19 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
-        Value: 0
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
@@ -188,21 +161,16 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: TopMargin
         Type: BaseDataVariableType
         DataType: Size
@@ -213,46 +181,35 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: BottomMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: DateTime
       Type: ReportLabel
       Children:
@@ -296,21 +253,16 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Width
         Type: BaseDataVariableType
         DataType: Size
@@ -321,21 +273,16 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: TextHorizontalAlignment
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
@@ -343,53 +290,41 @@ Children:
       - Name: TopMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: BottomMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: ParametersHeader
       Type: PanelSection
       Children:
@@ -403,21 +338,16 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: CoatingParametersLogging
         Type: ReportLabel
         Children:
@@ -447,47 +377,36 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: LeftMargin
       Type: BaseDataVariableType
       DataType: Size
       AccessLevel: Read
-      Value: 0.0
       Children:
       - Name: EngineeringUnits
         Type: EUInformationType
         DataType: EUInformation
         Children:
         - Name: UnitId
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Description
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: Sections
     Type: ReportColumnLayout
     Children:
@@ -513,21 +432,16 @@ Children:
               DataType: EUInformation
               Children:
               - Name: UnitId
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -535,11 +449,9 @@ Children:
           - Name: HeaderAlignment
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
-            Value: 0
           - Name: ContentAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
-            Value: 0
           - Name: OrderBy
             Type: BaseDataVariableType
             DataType: NodePath
@@ -550,12 +462,15 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/LocalTimestamp"
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
         - Name: WinderSpeed
           Type: ReportDataGridColumn
           Children:
@@ -569,21 +484,16 @@ Children:
               DataType: EUInformation
               Children:
               - Name: UnitId
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -591,11 +501,9 @@ Children:
           - Name: HeaderAlignment
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
-            Value: 0
           - Name: ContentAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
-            Value: 0
           - Name: OrderBy
             Type: BaseDataVariableType
             DataType: NodePath
@@ -606,12 +514,15 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/WinderSpeed"
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
         - Name: UnwinderSpeed
           Type: ReportDataGridColumn
           Children:
@@ -625,21 +536,16 @@ Children:
               DataType: EUInformation
               Children:
               - Name: UnitId
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -647,11 +553,9 @@ Children:
           - Name: HeaderAlignment
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
-            Value: 0
           - Name: ContentAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
-            Value: 0
           - Name: OrderBy
             Type: BaseDataVariableType
             DataType: NodePath
@@ -662,12 +566,15 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/UnwinderSpeed"
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
         - Name: TemperatureZone1
           Type: ReportDataGridColumn
           Children:
@@ -681,21 +588,16 @@ Children:
               DataType: EUInformation
               Children:
               - Name: UnitId
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -703,11 +605,9 @@ Children:
           - Name: HeaderAlignment
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
-            Value: 0
           - Name: ContentAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
-            Value: 0
           - Name: OrderBy
             Type: BaseDataVariableType
             DataType: NodePath
@@ -718,12 +618,15 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/TemperatureZone1"
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
         - Name: TemperatureZone2
           Type: ReportDataGridColumn
           Children:
@@ -737,21 +640,16 @@ Children:
               DataType: EUInformation
               Children:
               - Name: UnitId
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -759,11 +657,9 @@ Children:
           - Name: HeaderAlignment
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
-            Value: 0
           - Name: ContentAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
-            Value: 0
           - Name: OrderBy
             Type: BaseDataVariableType
             DataType: NodePath
@@ -774,12 +670,15 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/TemperatureZone2"
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
         - Name: TemperatureZone3
           Type: ReportDataGridColumn
           Children:
@@ -793,21 +692,16 @@ Children:
               DataType: EUInformation
               Children:
               - Name: UnitId
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -815,11 +709,9 @@ Children:
           - Name: HeaderAlignment
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
-            Value: 0
           - Name: ContentAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
-            Value: 0
           - Name: OrderBy
             Type: BaseDataVariableType
             DataType: NodePath
@@ -830,12 +722,15 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/TemperatureZone3"
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
         - Name: TemperatureZone4
           Type: ReportDataGridColumn
           Children:
@@ -849,21 +744,16 @@ Children:
               DataType: EUInformation
               Children:
               - Name: UnitId
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -871,11 +761,9 @@ Children:
           - Name: HeaderAlignment
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
-            Value: 0
           - Name: ContentAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
-            Value: 0
           - Name: OrderBy
             Type: BaseDataVariableType
             DataType: NodePath
@@ -886,22 +774,23 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/TemperatureZone4"
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
       - Name: SelectedItem
         Type: NodePointer
         DataType: NodeId
         AccessLevel: Read
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: Model
         Type: NodePointer
         DataType: NodeId
@@ -910,11 +799,9 @@ Children:
         - Name: ItemKind
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: Query
         Type: BaseDataVariableType
         DataType: String
@@ -923,7 +810,6 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         AccessLevel: Read
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: Height
         Type: BaseDataVariableType
         DataType: Size
@@ -934,30 +820,23 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Item
         Type: Alias
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: LeftMargin
         Type: BaseDataVariableType
         DataType: Size
@@ -968,21 +847,16 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: RightMargin
         Type: BaseDataVariableType
         DataType: Size
@@ -993,21 +867,16 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: TopMargin
         Type: BaseDataVariableType
         DataType: Size
@@ -1018,25 +887,19 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: SortColumn
         Type: BaseDataVariableType
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -1050,28 +913,22 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       AccessLevel: Read
-      Value: 0.0
       Children:
       - Name: EngineeringUnits
         Type: EUInformationType
         DataType: EUInformation
         Children:
         - Name: UnitId
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Description
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: Footer
     Type: Panel
     Children:
@@ -1085,21 +942,16 @@ Children:
         DataType: EUInformation
         Children:
         - Name: UnitId
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Description
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: ReportFooter
       Type: ReportLabel
       Children:
@@ -1125,21 +977,16 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: TextHorizontalAlignment
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
@@ -1147,53 +994,41 @@ Children:
       - Name: LeftMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: RightMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: TopMargin
         Type: BaseDataVariableType
         DataType: Size
@@ -1204,46 +1039,35 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: BottomMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Copyright
       Type: ReportLabel
       Children:
@@ -1278,28 +1102,22 @@ Children:
       - Name: RightMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: BottomMargin
         Type: BaseDataVariableType
         DataType: Size
@@ -1310,21 +1128,16 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Width
         Type: BaseDataVariableType
         DataType: Size
@@ -1335,21 +1148,16 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: LeftMargin
         Type: BaseDataVariableType
         DataType: Size
@@ -1360,21 +1168,16 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: PageNumber
       Type: ReportLabel
       Children:
@@ -1427,21 +1230,16 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: RightMargin
         Type: BaseDataVariableType
         DataType: Size
@@ -1452,21 +1250,16 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Height
         Type: BaseDataVariableType
         DataType: Size
@@ -1477,21 +1270,16 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Width
         Type: BaseDataVariableType
         DataType: Size
@@ -1502,21 +1290,16 @@ Children:
           DataType: EUInformation
           Children:
           - Name: UnitId
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: TextHorizontalAlignment
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
@@ -1529,56 +1312,44 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       AccessLevel: Read
-      Value: 0.0
       Children:
       - Name: EngineeringUnits
         Type: EUInformationType
         DataType: EUInformation
         Children:
         - Name: UnitId
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Description
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Class: Reference
     Target: ns=13;i=16
     Direction: Forward
   - Name: LeftMargin
     Type: BaseDataVariableType
     DataType: Size
-    Value: 0.0
     Children:
     - Name: EngineeringUnits
       Type: EUInformationType
       DataType: EUInformation
       Children:
       - Name: UnitId
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: Height
     Type: BaseDataVariableType
     DataType: Size
@@ -1599,21 +1370,16 @@ Children:
       DataType: EUInformation
       Children:
       - Name: UnitId
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: ButtonStyles
     Type: BaseObjectType
     Children:
@@ -1705,15 +1471,12 @@ Children:
       - Name: Color
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
   - Name: InputBoxStyles
     Type: BaseObjectType
     Children:
@@ -1804,6 +1567,21 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 18.0
+  - Name: RectangleStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: RectangleStyle
+      Children:
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+  - Name: ScreenStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ScreenStyle
 - Name: StyleSheet2
   Id: g=f05a116276ecaa46f6864556cb19b71d
   Type: ReportStyleSheet
@@ -1819,21 +1597,16 @@ Children:
       DataType: EUInformation
       Children:
       - Name: UnitId
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: BorderColor
     Type: BaseDataVariableType
     DataType: Color
@@ -1929,15 +1702,12 @@ Children:
       - Name: Color
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
   - Name: InputBoxStyles
     Type: BaseObjectType
     Children:
@@ -2036,3 +1806,18 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 18.0
+  - Name: RectangleStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: RectangleStyle
+      Children:
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+  - Name: ScreenStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ScreenStyle

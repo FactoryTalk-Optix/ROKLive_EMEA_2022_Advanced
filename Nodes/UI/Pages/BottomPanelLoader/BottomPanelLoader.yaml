@@ -22,22 +22,18 @@ Children:
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: Spaceship
       Type: Image
       Children:
@@ -58,7 +54,7 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "../../../../../InsideOut/Checked"
-          - Name: Pairs
+          - Name: ns=11;Pairs
             Type: BaseObjectType
             ModellingRule: None
             Children:
@@ -70,7 +66,6 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Boolean
                 ModellingRule: None
-                Value: false
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: ResourceUri
@@ -114,12 +109,10 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
     - Name: Drilling
       Type: LabelImages
       Children:
@@ -165,12 +158,10 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -198,7 +189,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
-          Value: false
         - Name: Path
           Type: BaseDataVariableType
           DataType: String
@@ -208,7 +198,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
-          Value: false
         - Name: Visible
           Type: BaseDataVariableType
           DataType: Boolean
@@ -238,7 +227,6 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -258,12 +246,10 @@ Children:
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: Rotation
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
     - Name: Slurry
       Type: LabelImages
       Children:
@@ -289,7 +275,6 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -309,12 +294,10 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -342,7 +325,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
-          Value: false
         - Name: Path
           Type: BaseDataVariableType
           DataType: String
@@ -352,7 +334,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
-          Value: false
         - Name: Visible
           Type: BaseDataVariableType
           DataType: Boolean
@@ -382,12 +363,10 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -402,17 +381,14 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: Rotation
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
     - Name: Coating
       Type: LabelImages
       Children:
@@ -438,7 +414,6 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
@@ -463,12 +438,10 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -496,7 +469,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
-          Value: false
         - Name: Path
           Type: BaseDataVariableType
           DataType: String
@@ -506,7 +478,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
-          Value: false
         - Name: Visible
           Type: BaseDataVariableType
           DataType: Boolean
@@ -536,7 +507,6 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -556,17 +526,14 @@ Children:
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: Rotation
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
     - Name: Drying
       Type: LabelImages
       Children:
@@ -612,12 +579,10 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -645,7 +610,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
-          Value: false
         - Name: Path
           Type: BaseDataVariableType
           DataType: String
@@ -655,7 +619,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
-          Value: false
         - Name: Visible
           Type: BaseDataVariableType
           DataType: Boolean
@@ -685,12 +648,10 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -705,17 +666,14 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: Rotation
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
     - Name: Calendaring
       Type: LabelImages
       Children:
@@ -756,12 +714,10 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -789,7 +745,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
-          Value: false
         - Name: Path
           Type: BaseDataVariableType
           DataType: String
@@ -799,7 +754,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
-          Value: false
         - Name: Visible
           Type: BaseDataVariableType
           DataType: Boolean
@@ -829,7 +783,6 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -849,17 +802,14 @@ Children:
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: Rotation
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
     - Name: Slitting
       Type: LabelImages
       Children:
@@ -905,12 +855,10 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -938,7 +886,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
-          Value: false
         - Name: Path
           Type: BaseDataVariableType
           DataType: String
@@ -948,7 +895,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
-          Value: false
         - Name: Visible
           Type: BaseDataVariableType
           DataType: Boolean
@@ -978,12 +924,10 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -998,17 +942,14 @@ Children:
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
           ModellingRule: Optional
-          Value: 0
         - Name: Rotation
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
     - Name: Zoommable
       Type: BaseDataVariableType
       DataType: Boolean
@@ -1019,13 +960,37 @@ Children:
       DataType: Int32
       ModellingRule: Optional
       Value: 300
+    - Name: ContentWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentX
+      Type: BaseDataVariableType
+      DataType: Size
+    - Name: ContentY
+      Type: BaseDataVariableType
+      DataType: Size
+    - Class: Reference
+      Target: ns=15;i=1394
+      Direction: Forward
   - Name: InsideOut
     Type: Switch
     Children:
     - Name: Checked
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -1050,17 +1015,14 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
   - Name: HitTestVisible
     Type: BaseDataVariableType
     DataType: Boolean
     ModellingRule: Optional
-    Value: false
 - Name: DrillingImage
   Id: g=51a0f1047cdc87b3ee47155e8bc2c639
   Supertype: ImagesPage
@@ -1087,12 +1049,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -1107,12 +1067,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
   - Name: WorkingHours
     Type: Label
     Children:
@@ -1237,7 +1195,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     ModellingRule: Optional
-    Value: false
   - Name: Cover
     Type: Panel
     Children:
@@ -1302,7 +1259,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1312,12 +1268,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
   - Name: MaterialProcessed
     Type: Label
     Children:
@@ -1442,7 +1396,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     ModellingRule: Optional
-    Value: false
   - Name: Cover
     Type: Panel
     Children:
@@ -1497,12 +1450,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -1645,7 +1596,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     ModellingRule: Optional
-    Value: false
 - Name: DryingImage
   Id: g=eb21c1af023d7cc69c856f01c725b44b
   Supertype: ImagesPage
@@ -1672,12 +1622,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -1840,7 +1788,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     ModellingRule: Optional
-    Value: false
   - Name: Cover
     Type: Panel
     Children:
@@ -1923,12 +1870,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -1963,7 +1908,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     ModellingRule: Optional
-    Value: false
   - Name: CylinderPress
     Type: Label
     Children:
@@ -1988,7 +1932,6 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: StringFormatter1
         Type: StringFormatter
@@ -2079,7 +2022,6 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: StringFormatter1
         Type: StringFormatter
@@ -2182,12 +2124,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -2202,7 +2142,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -2222,7 +2161,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     ModellingRule: Optional
-    Value: false
   - Name: AverageSpeed
     Type: Label
     Children:

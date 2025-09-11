@@ -7,15 +7,12 @@ Children:
   - Name: MaximumPasswordAge
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
   - Name: EnforcePasswordHistory
     Type: BaseDataVariableType
     DataType: Byte
-    Value: 0
   - Name: MinimumPasswordAge
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
   - Name: MinimumPasswordLength
     Type: BaseDataVariableType
     DataType: Byte
@@ -53,7 +50,6 @@ Children:
   - Name: BranchingEnabled
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - Name: Localization
   Type: PropertyGroup
   Children:
