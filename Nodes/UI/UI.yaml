@@ -889,6 +889,20 @@ Children:
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+      - Class: Reference
+        Target: ns=1;i=303
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=324
+        Direction: Forward
+      - Name: BearerAccessToken
+        Type: BaseVariableType
+        DataType: String
+        AccessLevel: Read
+      - Name: ScaleFactor
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 1.0
   - Name: MaxNumberOfConnections
     Type: BaseDataVariableType
     DataType: UInt32
@@ -896,6 +910,12 @@ Children:
   - Name: VirtualKeyboard
     Type: BaseDataVariableType
     DataType: VirtualKeyboardEngineTypeEnum
+  - Name: AllowedLocalSources
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["*.png","*.jpg","*.jpeg","*.gif","*.bmp","*.svg","*.avi","*.mov","*.mkv","*.mpg","*.mp4","*.wmv","*.pdf","*.ttf","*.otf","*.html","*.css","*.js","*.mjs"]
 - Name: NativePresentationEngine
   Type: NativePresentationEngine
   Children:
@@ -1008,6 +1028,20 @@ Children:
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+      - Class: Reference
+        Target: ns=1;i=303
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=324
+        Direction: Forward
+      - Name: BearerAccessToken
+        Type: BaseVariableType
+        DataType: String
+        AccessLevel: Read
+      - Name: ScaleFactor
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 1.0
 - Name: MainWindow
   Id: g=d862a361102100185c75fd7832c8703a
   Supertype: Window
@@ -1071,7 +1105,7 @@ Children:
         Value: 780.0
       - Name: FillMode
         Type: BaseDataVariableType
-        DataType: FillModeEnum
+        DataType: ImageFillModeEnum
         ModellingRule: Optional
       - Name: TopMargin
         Type: BaseVariableType

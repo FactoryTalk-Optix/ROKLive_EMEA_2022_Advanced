@@ -54,4 +54,8 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
+  - Name: CertificateIsExpired
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
 - File: OPCUAClient/OPCUAClient.yaml

@@ -610,7 +610,7 @@ Children:
         Value: 705.0
       - Name: FillMode
         Type: BaseDataVariableType
-        DataType: FillModeEnum
+        DataType: ImageFillModeEnum
         ModellingRule: Optional
         Value: 1
       - Name: HorizontalAlignment
@@ -1247,7 +1247,7 @@ Children:
         Value: 705.0
       - Name: FillMode
         Type: BaseDataVariableType
-        DataType: FillModeEnum
+        DataType: ImageFillModeEnum
         ModellingRule: Optional
         Value: 1
       - Name: HorizontalAlignment

@@ -566,7 +566,7 @@ Children:
         Value: 780.0
       - Name: FillMode
         Type: BaseDataVariableType
-        DataType: FillModeEnum
+        DataType: ImageFillModeEnum
         ModellingRule: Optional
       - Name: TopMargin
         Type: BaseVariableType

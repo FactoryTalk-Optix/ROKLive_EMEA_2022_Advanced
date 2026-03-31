@@ -65,3 +65,5 @@ Children:
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
+- Name: RuntimeOptimization
+  Type: PropertyGroup
